@@ -1,0 +1,23 @@
+body{
+	background-color: #F5F5F5;
+}
+
+.customerName{
+	font-size: 18px;
+}
+
+.btn {
+    white-space: normal;
+}
+
+.ng-cloak{
+	display: none !important;
+}
+
+.clearNav{
+	padding-top: 50px;
+}
+
+.quizFinished{
+	padding-bottom:30px;
+}

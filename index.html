@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html data-ng-app="quiz">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>Jaktskolan</title>
+	<link href="Content/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="Content/images/deerWhite_64x64.png">
+	<link href="Content/css/bootstrap.css" rel="stylesheet" />
+	<link href="Content/css/style.css" rel="stylesheet" />
+	<link href="Content/css/animate.css" rel="stylesheet" />
+</head>
+<body data-ng-controller="QuestionController as qstCtrl">
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container overview">
+			<div class="navbar-header">
+	<!-- 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button> -->
+				<a class="navbar-brand" href="#">Jaktskolan</a>
+			</div>
+	<!-- 		<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Skicka in frågor</a></li>
+					<li><a href="#">Om </a></li>
+				</ul>
+			</div> -->
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+	<div class="container clearNav ng-cloak">
+		<div class="row quiz" data-ng-hide="isQuizFinished">
+			<div class="panel panel-default">
+			    <div class="progress">
+            		  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="{{progressPercentage}}" aria-valuemin="0" aria-valuemax="100" data-ng-style="{'width': ( progressPercentage + '%' ) }">
+            		    <span class="sr-only">{{progressPercentage}}% Complete (success)</span>
+            		  </div>
+            		</div>
+				<div class="panel-body">
+					<div class="well text-center">
+						<h4>{{currentQuestion.text}}</h4>
+						<img data-ng-src="{{currentQuestion.imageUrl}}" src="" class="img-responsive center-block" data-ng-show="currentQuestion.isImageQuestion" alt="frågebild" />
+					</div>
+					<div>
+						<button class="btn btn-lg btn-block btn-primary" src="" data-ng-click="submitAnswer(answer)" data-ng-repeat="answer in currentQuestion.answers">{{answer.text}}</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row quizFinished" data-ng-show="isQuizFinished">
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h1>Du är klar!</h1>
+				</div>
+				<div class="panel-body">
+					<p> {{"Du hade " + numberOfCorrectAnswers + " rätt"}} </p>
+					<p data-ng-show="failedQuestions.length !== 0"> Här är de frågor du behöver träna mer på: </p>
+					<div class="well" data-ng-repeat="question in failedQuestions">
+						<div class="row">
+							<div data-ng-class=" question.isImageQuestion ? 'col-md-6' : 'col-md-12'">
+								<h4>{{question.text}}</h4>
+								<ul class="list-group">
+									<li class="list-group-item list-group-item-success">
+										<strong>Rätt svar: {{question.rightAnswer().text}}</strong>
+									</li>
+									<li class="list-group-item list-group-item-danger">
+										Ditt svar: {{question.userAnswer.text}}
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-6" data-ng-show="question.isImageQuestion">
+								<img data-ng-src="{{question.imageUrl}}" class="img-responsive" alt="frågebild" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel-footer">
+					<button class="btn btn-lg btn-block btn-primary" data-ng-click="restartQuiz()">Gör testet igen</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="Content/Js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="Content/Js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="Content/Js/angular.min.js"></script>
+	<script type="text/javascript" src="Content/Js/questions.js"></script>
+	<script type="text/javascript" src="Content/Js/quizApp.js"></script>
+	<script type="text/javascript" src="Content/Js/fastclick.js"></script>
+	<script type="text/javascript">
+		if ('addEventListener' in document) {
+			document.addEventListener('DOMContentLoaded', function() {
+				FastClick.attach(document.body);
+			}, false);
+		}
+	</script>
+</body>
+</html>
