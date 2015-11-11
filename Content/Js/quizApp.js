@@ -8,9 +8,9 @@
 		$scope.numberOfCorrectAnswers = 0;
 		$scope.failedQuestions = [];
 		$scope.isQuizFinished = false;
-		$scope.progressPercentage =0;					
+		$scope.progressPercentage =0;
 
-		$scope.submitAnswer = function(answer){			
+		$scope.submitAnswer = function(answer){
 			if(answer.isRightAnswer){
 				$scope.numberOfCorrectAnswers++;
 			} else {
@@ -26,12 +26,13 @@
 			}
 
 			$scope.setCurrentQuestion();
-			$scope.progressPercentage = $scope.getProgressPercentage();			
-			window.scrollTo(0, 0);
+			$scope.progressPercentage = $scope.getProgressPercentage();
+
 		};
 
 		$scope.setCurrentQuestion = function(){
 			$scope.currentQuestion = $scope.questions[$scope.currentQuestionIndex];
+			window.scrollTo(0, 0);
 		};
 
 		$scope.restartQuiz = function(){
@@ -41,17 +42,15 @@
 			};
 			$scope.isQuizFinished = false;
 			$scope.currentQuestionIndex = 0;
+			$scope.progressPercentage = 0;
 			$scope.currentQuestion = $scope.questions[$scope.currentQuestionIndex];
 			$scope.numberOfCorrectAnswers = 0;
 			$scope.failedQuestions = [];
-			window.scrollTo(0, 0);
 		};
 
 		$scope.getProgressPercentage = function(){
-			return Math.floor($scope.currentQuestionIndex / 40 * 100);
+			return Math.floor($scope.currentQuestionIndex / $scope.questions.length * 100);
 		};
-
 	}]);
-
 })();
 

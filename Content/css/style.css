@@ -21,3 +21,7 @@ body{
 .quizFinished{
 	padding-bottom:30px;
 }
+
+.icon-bar{
+	 transition: all 0.3s ease-in-out;
+}
