@@ -22,6 +22,14 @@ body{
 	padding-bottom:30px;
 }
 
-.icon-bar{
-	 transition: all 0.3s ease-in-out;
+.landingPage{
+	margin-top: 10px;
+}
+
+.huge{
+	font-size: 70px;
+}
+
+.clickable{
+	cursor: pointer;
 }

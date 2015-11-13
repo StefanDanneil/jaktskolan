@@ -21,40 +21,94 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" data-ng-click="restartQuiz()" href="#">Jaktskolan</a>
+				<a class="navbar-brand" data-ng-click="showToLandingPage()" href="#">Jaktskolan</a>
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="#">Självtest</a></li>
-					<li><a href="#">Snabba frågor</a></li>
+					<li><a href="#" data-ng-click="restartQuiz()">Självtest</a></li>
+					<li><a href="#" data-ng-click="enableLightningQuestions()">Snabba frågor</a></li>
+					<!-- <li><a href="#">Bidra med frågor</a></li>  --> <!-- to be implemented -->
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
 		</div>
 	</nav>
 	<div class="container clearNav ng-cloak">
-		<div class="row quiz" data-ng-hide="isQuizFinished">
-			<div class="panel panel-default">
-			    <div class="progress">
-            		  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="{{progressPercentage}}" aria-valuemin="0" aria-valuemax="100" data-ng-style="{'width': ( progressPercentage + '%' ) }">
-            		    <span class="sr-only">{{progressPercentage}}% Complete (success)</span>
-            		  </div>
-            		</div>
-				<div class="panel-body">
-					<div class="well text-center">
-						<h4>{{currentQuestion.text}}</h4>
-						<img data-ng-src="{{currentQuestion.imageUrl}}" src="" class="img-responsive center-block" data-ng-show="currentQuestion.isImageQuestion" alt="frågebild" />
+		<div class="row landingPage" data-ng-show="showLandingPage">
+			<div class="col-md-6">
+				<div class="panel panel-warning clickable" data-ng-click="enableLightningQuestions()">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-xs-3">
+								<span class="glyphicon glyphicon-flash huge" aria-hidden="true"></span>
+							</div>
+							<div class="col-xs-9 text-right">
+								<h4>Snabba frågor<h4>
+								<h5>Få svar direkt, frågorna tar aldrig slut</h5>
+							</div>
+						</div>
 					</div>
-					<div>
-						<button class="btn btn-lg btn-block btn-primary" src="" data-ng-click="submitAnswer(answer)" data-ng-repeat="answer in currentQuestion.answers">{{answer.text}}</button>
+					<div class="panel-footer">
+						<div class="row text-warning">
+							<div class="col-xs-10">
+								Starta frågorna!
+							</div>
+							<div class="col-xs-2 text-right">
+								<span class="glyphicon glyphicon-circle-arrow-right success" aria-hidden="true"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="panel panel-success clickable" data-ng-click="restartQuiz()">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-xs-3">
+								<span class="glyphicon glyphicon-list-alt huge" aria-hidden="true"></span>
+							</div>
+							<div class="col-xs-9 text-right">
+								<h4>Självtest<h4>
+								<h5>Svara på 70 frågor, se sen om du klarade testet</h5>
+							</div>
+						</div>
+					</div>
+					<div class="panel-footer" >
+						<div class="row text-success">
+							<div class="col-xs-10">
+								Gör testet!
+							</div>
+							<div class="col-xs-2 text-right">
+								<span class="glyphicon glyphicon-circle-arrow-right success" aria-hidden="true"></span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row quizFinished" data-ng-show="isQuizFinished">
-			<div class="panel panel-success">
+		<div class="row quiz" data-ng-hide="isQuizFinished || showLandingPage">
+			<div class="panel panel-default">
+				<div class="progress" data-ng-hide="lightningQuestionsEnabled">
+					<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="{{progressPercentage}}" aria-valuemin="0" aria-valuemax="100" data-ng-style="{'width': ( progressPercentage + '%' ) }">
+						<span class="sr-only">{{progressPercentage}}% Complete (success)</span>
+					</div>
+				</div>
+				<div class="panel-body">
+					<div class="well text-center">
+						<h4>{{currentQuestion.text}}</h4>
+						<img data-ng-src="{{currentQuestion.imageUrl}}" src=""  class="img-responsive center-block" data-ng-show="currentQuestion.isImageQuestion" alt="frågebild" />
+					</div>
+					<div>
+						<button class="btn btn-lg btn-block btn-primary" src="" data-ng-click="!isClickEnabled||submitAnswer(answer, $event)" data-isRightAnswer="{{answer.isRightAnswer}}" data-ng-repeat="answer in currentQuestion.answers">{{answer.text}}</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row quizFinished" data-ng-show="isQuizFinished && !showLandingPage">
+			<div class="panel" data-ng-class=" failedQuestions.length < 10 ? 'panel-success' : 'panel-danger'">
 				<div class="panel-heading">
-					<h1>Du är klar! {{"Du hade " + numberOfCorrectAnswers + " rätt av " + questions.length + " möjliga."}}</h1>
+					<h1 data-ng-show="failedQuestions.length < 10">Du är klar! {{"Du hade " + numberOfCorrectAnswers + " rätt av 70 möjliga, du är godkänd!"}}</h1>
+					<h1 data-ng-show="failedQuestions.length > 10">Du är klar! {{"Du hade " + numberOfCorrectAnswers + " rätt av 70 möjliga, du är inte godkänd."}}</h1>
 				</div>
 				<div class="panel-body">
 					<p data-ng-show="failedQuestions.length !== 0"> Här är de frågor du behöver träna mer på: </p>
