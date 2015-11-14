@@ -22,7 +22,7 @@ body{
 	padding-bottom:30px;
 }
 
-.landingPage{
+.content{
 	margin-top: 10px;
 }
 
@@ -32,4 +32,8 @@ body{
 
 .clickable{
 	cursor: pointer;
+}
+
+.panel-footer{
+	background-color:#FFFFFF;
 }

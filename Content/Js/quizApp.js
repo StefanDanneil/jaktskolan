@@ -34,8 +34,9 @@
 		$scope.isQuizFinished = false;
 		$scope.progressPercentage = 0;
 		$scope.lightningQuestionsEnabled = false;
-		$scope.showLandingPage = true;
+		$scope.isLandingPageActive = true;
 		$scope.isClickEnabled = true;
+		$scope.isSubmitQuestionsEnabled = false;
 
 		$scope.submitAnswer = function(answer, event){
 			$scope.currentQuestionIndex++;
@@ -103,32 +104,101 @@
 		};
 
 		$scope.restartQuiz = function(){
+			$scope.shuffleQuestions();
+			$scope.resetQuizVariables();
+		};
+
+		$scope.shuffleQuestions = function(){
 			$scope.questions.shuffle();
 			for(var i = 0; i < $scope.questions.length; i++){
 				$scope.questions[i].answers.shuffle();
 			};
-			$scope.isQuizFinished = false;
+		};
+
+		$scope.resetQuizVariables = function(){
 			$scope.currentQuestionIndex = 0;
 			$scope.progressPercentage = 0;
 			$scope.currentQuestion = $scope.questions[$scope.currentQuestionIndex];
 			$scope.numberOfCorrectAnswers = 0;
 			$scope.failedQuestions = [];
+
+			$scope.isQuizFinished = false;
 			$scope.lightningQuestionsEnabled = false;
-			$scope.showLandingPage = false;
+			$scope.isLandingPageActive = false;
+			$scope.isSubmitQuestionsEnabled = false;
 		};
 
 		$scope.getProgressPercentage = function(){
 			return Math.floor($scope.currentQuestionIndex / $scope.questions.length * 100);
 		};
 
-		$scope.showToLandingPage = function(){
-			$scope.showLandingPage = true;
+		$scope.showLandingPage = function(){
+			$scope.restartQuiz();
+			$scope.isLandingPageActive = true;
 		}
 
 		$scope.enableLightningQuestions = function(){
 			$scope.restartQuiz();
 			$scope.lightningQuestionsEnabled = true;
 		};
+
+		$scope.enableSubmitQuestions = function(){
+    		$scope.restartQuiz();
+    		$scope.isSubmitQuestionsEnabled = true;
+    	};
 	}]);
+
+	app.controller('NewQuestionController', ['$scope', function($scope){
+		$scope.newQuestion = {
+			text: "",
+			isImageQuestion: false,
+			imageUrl: null,
+			answers: [
+				{
+			    	text: "",
+			    	isRightAnswer: false
+				},
+				{
+				    text: "",
+				    isRightAnswer: false
+				},
+				{
+				    text: "",
+				    isRightAnswer: false
+				},
+				{
+				    text: "",
+				    isRightAnswer: false
+				}
+			]
+    	};
+
+    	$scope.submitQuestion = function(){
+    		console.log($scope.newQuestion);
+    		$scope.newQuestion = {
+				text: "",
+				isImageQuestion: false,
+				imageUrl: null,
+				answers: [
+					{
+				    	text: "",
+				    	isRightAnswer: false
+					},
+					{
+					    text: "",
+					    isRightAnswer: false
+					},
+					{
+					    text: "",
+					    isRightAnswer: false
+					},
+					{
+					    text: "",
+					    isRightAnswer: false
+					}
+				]
+	    	};
+    	}
+	}])
 })();
 
