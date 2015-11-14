@@ -186,18 +186,22 @@
 						<div class="form-group">
 							<label for="answer1">Alternativ 1</label>
 							<input type="text" class="form-control" id="answer1" data-ng-model="newQuestion.answers[0].text" placeholder="Alterativ 1">
+							<input type="checkbox" data-ng-click="ensureOnlyOneRightAnswer(newQuestion.answers[0])" data-ng-model="newQuestion.answers[0].isRightAnswer"> Är rätt svar
 						</div>
 						<div class="form-group">
 							<label for="answer2">Alternativ 2</label>
 							<input type="text" class="form-control" id="answer2" data-ng-model="newQuestion.answers[1].text" placeholder="Alterativ 2">
+							<input type="checkbox" data-ng-click="ensureOnlyOneRightAnswer(newQuestion.answers[1])" data-ng-model="newQuestion.answers[1].isRightAnswer"> Är rätt svar
 						</div>
 						<div class="form-group">
 							<label for="answer3">Alternativ 3</label>
 							<input type="text" class="form-control" id="answer3" data-ng-model="newQuestion.answers[2].text" placeholder="Alterativ 3">
+							<input type="checkbox" data-ng-click="ensureOnlyOneRightAnswer(newQuestion.answers[2])" data-ng-model="newQuestion.answers[2].isRightAnswer"> Är rätt svar
 						</div>
 						<div class="form-group">
 							<label for="answer4">Alternativ 4</label>
 							<input type="text" class="form-control" id="answer4" data-ng-model="newQuestion.answers[3].text" placeholder="Alterativ 4">
+							<input type="checkbox" data-ng-click="ensureOnlyOneRightAnswer(newQuestion.answers[3])" data-ng-model="newQuestion.answers[3].isRightAnswer"> Är rätt svar
 						</div>
 					</div>
 				</div>

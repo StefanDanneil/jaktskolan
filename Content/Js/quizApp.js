@@ -148,7 +148,7 @@
     	};
 	}]);
 
-	app.controller('NewQuestionController', ['$scope', function($scope){
+	app.controller('NewQuestionController', ['$scope', '$http', function($scope, $http){
 		$scope.newQuestion = {
 			text: "",
 			isImageQuestion: false,
@@ -173,8 +173,26 @@
 			]
     	};
 
+    	$scope.ensureOnlyOneRightAnswer = function (answer) {
+    		for(var i = 0; i < $scope.newQuestion.answers.length; i++){
+    			$scope.newQuestion.answers[i].isRightAnswer = false;
+    		}
+
+    		answer.isRightAnswer = true;
+    	}
+
     	$scope.submitQuestion = function(){
-    		console.log($scope.newQuestion);
+    		var req = {
+				method: 'POST',
+				url: 'http://localhost:81/jaktskolan/API/test.php',
+				headers: {
+				'Content-Type': 'application/json'
+				},
+				data: { question: JSON.stringify($scope.newQuestion) }
+			}
+
+			$http(req);
+
     		$scope.newQuestion = {
 				text: "",
 				isImageQuestion: false,
