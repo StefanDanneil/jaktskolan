@@ -1,8 +1,32 @@
 ﻿(function () {
-	var app = angular.module("quiz", []);
+	angular.module('jsonService', ['ngResource']).factory('JsonService', function($resource) {
+	  return $resource('Questions/questions.json',{ }, {
+	    getData: {method:'GET', isArray: true}
+	  });
+	});
 
-	app.controller("QuestionController", ['$scope', function($scope){
-		$scope.questions = questions.shuffle();
+	var app = angular.module("quiz", ['jsonService']);
+
+	app.controller("QuestionController", ['$scope','JsonService', function($scope, JsonService){
+	  	$scope.questions = [];
+	  	JsonService.getData(function(data){
+			for(var i = 0; i < data.length; i++){
+				var question = data[i];
+
+				question.rightAnswer = function(){
+			        for(var i = 0; i < this.answers.length; i++){
+			            if(this.answers[i].isRightAnswer){
+			                return this.answers[i];
+			            }
+			        }
+			    };
+
+				question.answers.shuffle();
+
+				$scope.questions.push(data[i]);
+			}
+			$scope.questions.shuffle();
+		});
 		$scope.currentQuestionIndex = 0;
 		$scope.currentQuestion = $scope.questions[$scope.currentQuestionIndex];
 		$scope.numberOfCorrectAnswers = 0;
