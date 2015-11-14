@@ -149,6 +149,8 @@
 	}]);
 
 	app.controller('NewQuestionController', ['$scope', '$http', function($scope, $http){
+		$scope.isPreviewEnabled = false;
+
 		$scope.newQuestion = {
 			text: "",
 			isImageQuestion: false,
@@ -156,7 +158,7 @@
 			answers: [
 				{
 			    	text: "",
-			    	isRightAnswer: false
+			    	isRightAnswer: true
 				},
 				{
 				    text: "",
@@ -173,50 +175,90 @@
 			]
     	};
 
-    	$scope.ensureOnlyOneRightAnswer = function (answer) {
-    		for(var i = 0; i < $scope.newQuestion.answers.length; i++){
-    			$scope.newQuestion.answers[i].isRightAnswer = false;
-    		}
-
-    		answer.isRightAnswer = true;
-    	}
+    	$scope.togglePreview = function(){
+    		$scope.isPreviewEnabled = !$scope.isPreviewEnabled;
+    	};
 
     	$scope.submitQuestion = function(){
-    		var req = {
-				method: 'POST',
-				url: 'http://localhost:81/jaktskolan/API/test.php',
-				headers: {
-				'Content-Type': 'application/json'
-				},
-				data: { question: JSON.stringify($scope.newQuestion) }
-			}
+    		$scope.isPreviewEnabled = false;
 
-			$http(req);
+    		try {
+    			$scope.validateNewQuestion();
 
-    		$scope.newQuestion = {
-				text: "",
-				isImageQuestion: false,
-				imageUrl: null,
-				answers: [
-					{
-				    	text: "",
-				    	isRightAnswer: false
+				var request = {
+					method: 'POST',
+					url: './API/test.php',
+					headers: {
+						'Content-Type': 'application/json',
+						'Charset': 'UTF-8'
 					},
-					{
-					    text: "",
-					    isRightAnswer: false
-					},
-					{
-					    text: "",
-					    isRightAnswer: false
-					},
-					{
-					    text: "",
-					    isRightAnswer: false
-					}
-				]
-	    	};
-    	}
-	}])
+					data: { question: JSON.stringify($scope.newQuestion) }
+				}
+
+				$http(request);
+
+	    		$scope.newQuestion = {
+					text: "",
+					isImageQuestion: false,
+					imageUrl: null,
+					answers: [
+						{
+					    	text: "",
+					    	isRightAnswer: false
+						},
+						{
+						    text: "",
+						    isRightAnswer: false
+						},
+						{
+						    text: "",
+						    isRightAnswer: false
+						},
+						{
+						    text: "",
+						    isRightAnswer: false
+						}
+					]
+		    	};
+    		}
+    		catch(error){
+    			//todo: clean this shit up
+				$('#questionForm').find('.panel-footer').prepend($('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Warning!</strong> '+ error +'</div>'));
+    		}
+    	};
+
+    	$scope.validateNewQuestion = function(){
+    		var isQuestionValid = true;
+
+    		if($scope.newQuestion.text.trim().length === 0){
+    			isQuestionValid = false;
+    			throw "Frågan får inte vara tom!";
+    		} else {
+    			for(var i = 0; i < $scope.newQuestion.answers.length; i++){
+    				if($scope.newQuestion.answers[i].text.trim().length === 0){
+    					isQuestionValid = false;
+    					throw "Alternativ " + (i+1) + " får inte vara tomt!";
+    				} else {
+    					for(var j = 0; j < $scope.newQuestion.answers.length; j ++){
+    						if(j !== i){
+    							if($scope.newQuestion.answers[i].text.trim().toLowerCase() === $scope.newQuestion.answers[j].text.trim().toLowerCase() ){
+    								isQuestionValid = false;
+    								throw "Alternativ " + (j+1) + " är en kopia av alternativ " + (i+1);
+    							}
+    						}
+    					}
+    				}
+    			}
+    		}
+
+    		if(!isQuestionValid){
+    			console.log(dirtyFields);
+    		}
+
+    		return isQuestionValid;
+    	};
+
+	}]);
+
 })();
 
