@@ -1,0 +1,59 @@
+<div class="row submitQuestion content" data-ng-controller="NewQuestionController as newQuestionCtrl" data-ng-show="isSubmitQuestionsEnabled">
+			<form id="questionForm">
+				<div class="panel panel-primary">
+					<div class="panel-heading">Fyll i din fråga i formuläret nedanför</div>
+					<div class="panel-body" data-ng-show="!isPreviewEnabled">
+						<div class="form-group">
+							<div class="form-group">
+								<label for="QuestionText">Text</label>
+								<textarea class="form-control" id="QuestionText" placeholder="Skriv din fråga här" rows="3" data-ng-model="newQuestion.text"></textarea>
+							</div>
+				<!-- 			<div class="checkbox">
+								<label>
+								  <input type="checkbox" id="" data-ng-model="newQuestion.isImageQuestion"> Min fråga är en bildfråga
+								</label>
+							</div>
+							<div class="form-group" data-ng-show="newQuestion.isImageQuestion">
+								<label for="questionImage">Ladda upp en bild</label>
+								<input type="file" id="questionImage">
+							</div> -->
+							<div class="form-group">
+								<label for="answer1" class="text-success">Alternativ 1 - Rätt alternativ</label>
+								<input type="text" class="form-control" id="answer1" data-ng-model="newQuestion.answers[0].text" placeholder="Alterativ 1" />
+							</div>
+							<div class="form-group">
+								<label for="answer2">Alternativ 2</label>
+								<input type="text" class="form-control" id="answer2" data-ng-model="newQuestion.answers[1].text" placeholder="Alterativ 2" />
+							</div>
+							<div class="form-group">
+								<label for="answer3">Alternativ 3</label>
+								<input type="text" class="form-control" id="answer3" data-ng-model="newQuestion.answers[2].text" placeholder="Alterativ 3" />
+							</div>
+							<div class="form-group">
+								<label for="answer4">Alternativ 4</label>
+								<input type="text" class="form-control" id="answer4" data-ng-model="newQuestion.answers[3].text" placeholder="Alterativ 4" />
+							</div>
+						</div>
+					</div>
+					<div class="panel-body" data-ng-show="isPreviewEnabled">
+						<div class="well text-center">
+							<h4>{{newQuestion.text}}</h4>
+							<img data-ng-src="{{currentQuestion.imageUrl}}" src=""  class="img-responsive center-block" data-ng-show="currentQuestion.isImageQuestion" alt="frågebild" />
+						</div>
+						<div>
+							<button class="btn btn-lg btn-block btn-primary" src="" data-ng-repeat="answer in newQuestion.answers">{{answer.text}}</button>
+						</div>
+					</div>
+					<div class="panel-footer">
+						<div class="row">
+							<div class="col-xs-6">
+								<button data-ng-click="togglePreview()" class="btn btn-lg btn-block btn-info">{{ isPreviewEnabled ? "Redigera" : "Kontrollera frågan" }}</button>
+							</div>
+							<div class="col-xs-6">
+								<button data-ng-click="submitQuestion()" class="btn btn-lg btn-block btn-success">Skicka in din fråga</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>

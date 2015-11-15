@@ -220,10 +220,11 @@
 						}
 					]
 		    	};
+		    	$('#questionForm').find('.panel-footer').prepend($('<div class="alert alert-success alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Tack för ditt bidrag!</div>'));
     		}
     		catch(error){
     			//todo: clean this shit up
-				$('#questionForm').find('.panel-footer').prepend($('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Warning!</strong> '+ error +'</div>'));
+				$('#questionForm').find('.panel-footer').prepend($('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Varning!</strong> '+ error +'</div>'));
     		}
     	};
 
@@ -259,6 +260,27 @@
     	};
 
 	}]);
+
+	app.directive('landingpage', function() {
+		return {
+			restrict: 'E',
+			templateUrl: './Directives/landingPage.html'
+		};
+	});
+
+	app.directive('quiz', function(){
+		return {
+			restrict: 'E',
+			templateUrl: './Directives/quiz.html'
+		};
+	});
+
+	app.directive('submitquestion', function(){
+		return {
+			restrict: 'E',
+			templateUrl: './Directives/submitQuestion.html'
+		};
+	});
 
 })();
 

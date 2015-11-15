@@ -1,0 +1,50 @@
+<div class="row quiz content">
+	<div class="panel panel-default">
+		<div class="progress" data-ng-hide="lightningQuestionsEnabled">
+			<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="{{progressPercentage}}" aria-valuemin="0" aria-valuemax="100" data-ng-style="{'width': ( progressPercentage + '%' ) }">
+				<span class="sr-only">{{progressPercentage}}% Complete (success)</span>
+			</div>
+		</div>
+		<div class="panel-body">
+			<div class="well text-center">
+				<h4>{{currentQuestion.text}}</h4>
+				<img data-ng-src="{{currentQuestion.imageUrl}}" src=""  class="img-responsive center-block" data-ng-show="currentQuestion.isImageQuestion" alt="frågebild" />
+			</div>
+			<div>
+				<button class="btn btn-lg btn-block btn-primary" src="" data-ng-click="!isClickEnabled||submitAnswer(answer, $event)" data-isRightAnswer="{{answer.isRightAnswer}}" data-ng-repeat="answer in currentQuestion.answers">{{answer.text}}</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row quizFinished content" data-ng-show="isQuizFinished && !isLandingPageActive">
+	<div class="panel" data-ng-class=" failedQuestions.length < 10 ? 'panel-success' : 'panel-danger'">
+		<div class="panel-heading">
+			<h1 data-ng-show="failedQuestions.length < 10">Du är klar! {{"Du hade " + numberOfCorrectAnswers + " rätt av 70 möjliga, du är godkänd!"}}</h1>
+			<h1 data-ng-show="failedQuestions.length > 10">Du är klar! {{"Du hade " + numberOfCorrectAnswers + " rätt av 70 möjliga, du är inte godkänd."}}</h1>
+		</div>
+		<div class="panel-body">
+			<p data-ng-show="failedQuestions.length !== 0"> Här är de frågor du behöver träna mer på: </p>
+			<div class="well" data-ng-repeat="question in failedQuestions">
+				<div class="row">
+					<div data-ng-class=" question.isImageQuestion ? 'col-md-6' : 'col-md-12'">
+						<h4>{{question.text}}</h4>
+						<ul class="list-group">
+							<li class="list-group-item list-group-item-success">
+								<strong>Rätt svar: {{question.rightAnswer().text}}</strong>
+							</li>
+							<li class="list-group-item list-group-item-danger">
+								Ditt svar: {{question.userAnswer.text}}
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-6" data-ng-show="question.isImageQuestion">
+						<img data-ng-src="{{question.imageUrl}}" class="img-responsive" alt="frågebild" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel-footer">
+			<button class="btn btn-lg btn-block btn-primary" data-ng-click="restartQuiz()">Gör testet igen</button>
+		</div>
+	</div>
+</div>
