@@ -1,5 +1,32 @@
 [
     {
+        "text": "Vem är ansvarig för ett avlossat skott?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Skytten är ensamt ansvarig",
+                "isRightAnswer": true,
+                "$$hashKey": "object:15"
+            },
+            {
+                "text": "Jaktledaren är ansvarig",
+                "isRightAnswer": false,
+                "$$hashKey": "object:16"
+            },
+            {
+                "text": "Jaktlaget är gemensamt ansvarigt",
+                "isRightAnswer": false,
+                "$$hashKey": "object:17"
+            },
+            {
+                "text": "Markägaren",
+                "isRightAnswer": false,
+                "$$hashKey": "object:18"
+            }
+        ]
+    },
+    {
         "text": "Kan du jaga från båt försedd med motor?",
         "isImageQuestion": false,
         "imageUrl": null,

@@ -146,6 +146,10 @@
     		$scope.restartQuiz();
     		$scope.isSubmitQuestionsEnabled = true;
     	};
+
+    	$scope.toggleCollapsed = function($event){
+    		$('#toggleMenuButton').toggleClass('collapsed');
+    	};
 	}]);
 
 	app.controller('NewQuestionController', ['$scope', '$http', function($scope, $http){
