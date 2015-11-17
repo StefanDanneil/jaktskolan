@@ -7,9 +7,11 @@
 	<title>Jaktskolan</title>
 	<link href="Content/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
 	<link rel="apple-touch-icon" href="Content/images/deerWhite_64x64.png">
+	<!-- build:css Content/css/styles.css -->
 	<link href="Content/css/bootstrap.css" rel="stylesheet" />
 	<link href="Content/css/style.css" rel="stylesheet" />
 	<link href="Content/css/animate.css" rel="stylesheet" />
+	<!-- endbuild -->
 </head>
 <body data-ng-controller="QuestionController as qstCtrl">
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -38,6 +40,7 @@
 		<submitquestion data-ng-show="isSubmitQuestionsEnabled"></submitquestion>
 	</div>
 
+	<!-- build:js Content/scripts/script.js -->
 	<script type="text/javascript" src="Content/Js/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript" src="Content/Js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="Content/Js/angular.min.js"></script>
@@ -52,5 +55,6 @@
 			}, false);
 		}
 	</script>
+	<!-- endbuild -->
 </body>
 </html>

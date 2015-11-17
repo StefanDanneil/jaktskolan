@@ -208,7 +208,7 @@
 					answers: [
 						{
 					    	text: "",
-					    	isRightAnswer: false
+					    	isRightAnswer: true
 						},
 						{
 						    text: "",

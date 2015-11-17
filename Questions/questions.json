@@ -1,28 +1,484 @@
 [
     {
+        "text": "Vad är det grövsta hagelkaliber som får användas på jakt i Sverige?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "12",
+                "isRightAnswer": true
+            },
+            {
+                "text": "10",
+                "isRightAnswer": false
+            },
+            {
+                "text": "16",
+                "isRightAnswer": false
+            },
+            {
+                "text": "20",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vad heter vårt lands största säl?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Gråsäl",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Knubbsäl",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vikare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Sjöleopard",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vad för jakthund visas på bilden?",
+        "isImageQuestion": true,
+        "imageUrl": "Content/images/animal5.jpg",
+        "answers": [
+            {
+                "text": "Pointer",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Breton",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vorsteh",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Drever",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vad heter fångstredskapet på bilden?",
+        "isImageQuestion": true,
+        "imageUrl": "Content/images/object1.jpg",
+        "answers": [
+            {
+                "text": "Ripsnara",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Fallflake",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Tunnelfällan",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Slagfälla för mink",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Orrtuppens viktigaste föda under vintern?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Hanhängen från Björk",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Gran",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Tall",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Lövskog",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande alternativ får inte andvändas vid jakt?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Lasersikte",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Ljuddämpare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kikarsikte",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kombibock",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Med för låg kolvkam på ett hagelgevär, skjuter man?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Under",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Över",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Till vänster",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Till höger",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Är det tillåtet att använda motordrivet fordon i samband med att sätta ut fällor eller vittja dem?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Ja",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Ja, men bara båt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Ja, men bara scooter",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Nej",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "En väg gränsar mellan två olika jakträttshavares marker, och ingen av dom äger vägmarken, vem har jakträtt på vägen?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Båda två",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Ingen",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Staten",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Förbjudet att jaga på väg",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Ett hjärtskott på älg, resulterar ofta i?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Ett språng, följt av en kort rusning, innan djuret går omkull och dör",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Löper undan på två ben",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Skadeskjutning",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Att djuret kniper upp buken och skjuter rygg",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket djur visas?",
+        "isImageQuestion": true,
+        "imageUrl": "Content/images/animal6.jpg",
+        "answers": [
+            {
+                "text": "Grävling",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Rödräv",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Mårdhund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Skogsmård",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken fågel visas?",
+        "isImageQuestion": true,
+        "imageUrl": "Content/images/bird6.jpg",
+        "answers": [
+            {
+                "text": "Fjällgås",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Grågås",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kanadagås",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Bläsgås",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vad betyder tillgänglig eftersökshund?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Hunden ska vara på skottplatsen inom två timmar.",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Hunden ska vara på skottplatsen inom en timma",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Hunden ska vara på skottplatsen inom tre timmar.",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Hunden ska vara på skottplatsen inom fyra timmar.",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Stockfälla för Mård ska alltid placeras minst?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "1,5 m ovan mark",
+                "isRightAnswer": true
+            },
+            {
+                "text": "1 m ovan mark",
+                "isRightAnswer": false
+            },
+            {
+                "text": "2 m ovan mark",
+                "isRightAnswer": false
+            },
+            {
+                "text": "2,5 m ovan mark",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken fågel visas?",
+        "isImageQuestion": true,
+        "imageUrl": "Content/images/bird7.jpg",
+        "answers": [
+            {
+                "text": "Enkelbeckasin",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Storskrake",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Morkulla",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Småskrake",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Skott som avlossas mot Älg ska sitta i:",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Hjärta och lunga",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Gevir",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Benen",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Huvud",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken fågel visas?",
+        "isImageQuestion": true,
+        "imageUrl": "Content/images/bird8.jpg",
+        "answers": [
+            {
+                "text": "Nötskrika",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Nötkråka",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Lavskrika",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Korp",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vad heter vår tyngsta dykand?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Ejder",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Småskrake",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Sjöorre",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Alkfågel",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Varför har pipan till en studsare räfflor?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Kulan tvingas att följa räfflingen och måste rotera, för att kulans flykt blir stabilare",
+                "isRightAnswer": true
+            },
+            {
+                "text": "För att kulan inte skal rotera",
+                "isRightAnswer": false
+            },
+            {
+                "text": "På en studsare är pipan slätborrad",
+                "isRightAnswer": false
+            },
+            {
+                "text": "För att pipan skal vare enkel att göra ordentligt ren",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Hur många pipor har en drilling?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Tre pipor",
+                "isRightAnswer": true
+            },
+            {
+                "text": "En pipa",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Två pipor",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Fyra pipor",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
         "text": "Vem är ansvarig för ett avlossat skott?",
         "isImageQuestion": false,
         "imageUrl": null,
         "answers": [
             {
                 "text": "Skytten är ensamt ansvarig",
-                "isRightAnswer": true,
-                "$$hashKey": "object:15"
+                "isRightAnswer": true
             },
             {
                 "text": "Jaktledaren är ansvarig",
-                "isRightAnswer": false,
-                "$$hashKey": "object:16"
+                "isRightAnswer": false
             },
             {
                 "text": "Jaktlaget är gemensamt ansvarigt",
-                "isRightAnswer": false,
-                "$$hashKey": "object:17"
+                "isRightAnswer": false
             },
             {
                 "text": "Markägaren",
-                "isRightAnswer": false,
-                "$$hashKey": "object:18"
+                "isRightAnswer": false
             }
         ]
     },
