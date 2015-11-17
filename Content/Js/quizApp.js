@@ -1,11 +1,5 @@
 ﻿(function () {
-	angular.module('jsonService', ['ngResource']).factory('JsonService', function($resource) {
-	  return $resource('Questions/questions.json',{ }, {
-	    getData: {method:'GET', isArray: true}
-	  });
-	});
-
-	var app = angular.module("quiz", ['jsonService']);
+	var app = angular.module("quiz", ['appServices', 'appDirectives']);
 
 	app.controller("QuestionController", ['$scope','JsonService', function($scope, JsonService){
 	  	$scope.questions = [];
@@ -224,13 +218,24 @@
 						}
 					]
 		    	};
-		    	$('#questionForm').find('.panel-footer').prepend($('<div class="alert alert-success alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Tack för ditt bidrag!</div>'));
+		    	$scope.giveUserAlert('success', 'Tack för ditt bidrag!');
     		}
     		catch(error){
-    			//todo: clean this shit up
-				$('#questionForm').find('.panel-footer').prepend($('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Varning!</strong> '+ error +'</div>'));
+				var errorMessage = '<strong>Varning!</strong> '+ error
+				$scope.giveUserAlert('danger', errorMessage);
     		}
     	};
+
+    	$scope.giveUserAlert = function(alertType, message){
+    		var alert = $('<div />')
+				.addClass('alert alert-dismissible alert-' + alertType)
+				.attr('role', 'alert')
+				.html(message);
+
+			alert.append('<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>');
+
+			$('#questionForm').find('.panel-footer').prepend(alert);
+    	}
 
     	$scope.validateNewQuestion = function(){
     		var isQuestionValid = true;
@@ -256,35 +261,9 @@
     			}
     		}
 
-    		if(!isQuestionValid){
-    			console.log(dirtyFields);
-    		}
-
     		return isQuestionValid;
     	};
 
 	}]);
 
-	app.directive('landingpage', function() {
-		return {
-			restrict: 'E',
-			templateUrl: './Directives/landingPage.html'
-		};
-	});
-
-	app.directive('quiz', function(){
-		return {
-			restrict: 'E',
-			templateUrl: './Directives/quiz.html'
-		};
-	});
-
-	app.directive('submitquestion', function(){
-		return {
-			restrict: 'E',
-			templateUrl: './Directives/submitQuestion.html'
-		};
-	});
-
 })();
-
