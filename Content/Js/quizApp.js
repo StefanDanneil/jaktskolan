@@ -89,11 +89,7 @@
 		};
 
 		$scope.setCurrentQuestion = function(){
-			if($scope.lightningQuestionsEnabled){
-				$scope.currentQuestion = $scope.questions[$scope.currentQuestionIndex];
-			} else {
-				$scope.currentQuestion = $scope.questions[$scope.currentQuestionIndex];
-			}
+			$scope.currentQuestion = $scope.questions[$scope.currentQuestionIndex];
 			window.scrollTo(0, 0);
 		};
 
@@ -123,7 +119,7 @@
 		};
 
 		$scope.getProgressPercentage = function(){
-			return Math.floor($scope.currentQuestionIndex / $scope.questions.length * 100);
+			return Math.floor($scope.currentQuestionIndex / 70 * 100);
 		};
 
 		$scope.showLandingPage = function(){

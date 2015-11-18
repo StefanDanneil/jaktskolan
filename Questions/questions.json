@@ -423,7 +423,7 @@
                 "isRightAnswer": true
             },
             {
-                "text": "För att kulan inte skal rotera",
+                "text": "För att kulan inte ska rotera",
                 "isRightAnswer": false
             },
             {
@@ -431,7 +431,7 @@
                 "isRightAnswer": false
             },
             {
-                "text": "För att pipan skal vare enkel att göra ordentligt ren",
+                "text": "För att pipan ska vara enkel att göra ordentligt ren",
                 "isRightAnswer": false
             }
         ]

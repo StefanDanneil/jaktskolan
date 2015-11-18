@@ -36,7 +36,7 @@
 	</nav>
 	<div class="container clearNav ng-cloak">
 		<landingpage data-ng-show="isLandingPageActive"></landingpage>
-		<quiz data-ng-show="!isQuizFinished && !isLandingPageActive && !isSubmitQuestionsEnabled"></quiz>
+		<quiz data-ng-show="!isLandingPageActive && !isSubmitQuestionsEnabled"></quiz>
 		<submitquestion data-ng-show="isSubmitQuestionsEnabled"></submitquestion>
 	</div>
 
@@ -50,13 +50,7 @@
 	<script type="text/javascript" src="Content/Js/appServices.js"></script>
 	<script type="text/javascript" src="Content/Js/appDirectives.js"></script>
 	<script type="text/javascript" src="Content/Js/fastclick.js"></script>
-	<script type="text/javascript">
-		if ('addEventListener' in document) {
-			document.addEventListener('DOMContentLoaded', function() {
-				FastClick.attach(document.body);
-			}, false);
-		}
-	</script>
+	<script type="text/javascript" src="Content/Js/attachFastClick.js"></script>
 	<!-- endbuild -->
 </body>
 </html>
