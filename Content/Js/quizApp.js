@@ -3,92 +3,96 @@
 
 	app.controller("QuestionController", ['$scope','JsonService', function($scope, JsonService){
 	  	$scope.questions = [];
-	  	JsonService.getData(function(data){
-			for(var i = 0; i < data.length; i++){
-				var question = data[i];
-
-				question.rightAnswer = function(){
-			        for(var i = 0; i < this.answers.length; i++){
-			            if(this.answers[i].isRightAnswer){
-			                return this.answers[i];
-			            }
-			        }
-			    };
-
-				question.answers.shuffle();
-
-				$scope.questions.push(data[i]);
-			}
-			$scope.questions.shuffle();
-		});
+	  	$scope.failedQuestions = [];
 		$scope.currentQuestionIndex = 0;
-		$scope.currentQuestion = $scope.questions[$scope.currentQuestionIndex];
 		$scope.numberOfCorrectAnswers = 0;
-		$scope.failedQuestions = [];
-		$scope.isQuizFinished = false;
 		$scope.progressPercentage = 0;
+		$scope.isQuizFinished = false;
+		$scope.isSubmitQuestionsEnabled = false;
 		$scope.lightningQuestionsEnabled = false;
 		$scope.isLandingPageActive = true;
 		$scope.isClickEnabled = true;
-		$scope.isSubmitQuestionsEnabled = false;
+
+	 	JsonService.getData(function(data){
+				for(var i = 0; i < data.length; i++){
+					var question = data[i];
+
+					question.rightAnswer = function(){
+				        for(var i = 0; i < this.answers.length; i++){
+				            if(this.answers[i].isRightAnswer){
+				                return this.answers[i];
+				            }
+				        }
+				    };
+
+					question.answers.shuffle();
+
+					$scope.questions.push(data[i]);
+				}
+				$scope.questions.shuffle();
+				$scope.setCurrentQuestion();
+		});
+
 
 		$scope.submitAnswer = function(answer, event){
-			$scope.currentQuestionIndex++;
-
 			if($scope.lightningQuestionsEnabled) {
-				if(answer.isRightAnswer){
-					var triggeredButton = $(event.target);
-					triggeredButton.removeClass('btn-primary').addClass('btn-success');
-					$scope.isClickEnabled = false;
-					setTimeout(function(){
-						if($scope.currentQuestionIndex === 20){
-							$scope.questions.shuffle();
-							$scope.currentQuestionIndex = 0;
-						}
-						$scope.isClickEnabled = true;
-						$scope.setCurrentQuestion();
-						$scope.$apply();
-					}, 500);
-				} else {
-					var triggeredButton = $(event.target);
-					var rightAnswer = $();
-					triggeredButton.removeClass('btn-primary').addClass('animated shake btn-danger');
-					$('.btn[data-isRightAnswer="true"]').removeClass('btn-primary').addClass('animated pulse btn-success');
-					$scope.isClickEnabled = false;
-					setTimeout(function(){
-						if($scope.currentQuestionIndex === 20){
-							$scope.questions.shuffle();
-							$scope.currentQuestionIndex = 0;
-						}
-
-						$scope.isClickEnabled = true;
-						$scope.setCurrentQuestion();
-						$scope.$apply();
-					}, 2000);
-				}
-
+				var triggeredButton = $(event.target);
+				$scope.handleLightningQuestionAnswer(triggeredButton);
 			} else {
-				if(answer.isRightAnswer){
-					$scope.numberOfCorrectAnswers++;
-				} else {
-					$scope.currentQuestion.userAnswer = answer;
-					$scope.failedQuestions.push($scope.currentQuestion);
-				}
+				$scope.handleRegularQuizAnswer();
+			}
+		};
 
-				$scope.progressPercentage = $scope.getProgressPercentage();
+		$scope.handleLightningQuestionAnswer = function(triggeredButton){
+			if(answer.isRightAnswer){
+				triggeredButton.removeClass('btn-primary')
+					.addClass('btn-success');
+				$scope.setLightningQuestionResultTimer(true);
+			} else {
+				triggeredButton.removeClass('btn-primary')
+					.addClass('animated shake btn-danger');
+				$('.btn[data-isRightAnswer="true"]')
+					.removeClass('btn-primary')
+					.addClass('animated pulse btn-success');
+				$scope.setLightningQuestionResultTimer(false);
+			}
+		};
 
-				if($scope.currentQuestionIndex === 70){
-					$scope.isQuizFinished = true;
-					$scope.currentQuestionIndex = 0;
-				}
-
-				$scope.setCurrentQuestion();
+		$scope.handleRegularQuizAnswer = function(){
+			if(answer.isRightAnswer){
+				$scope.numberOfCorrectAnswers++;
+			} else {
+				$scope.currentQuestion.userAnswer = answer;
+				$scope.failedQuestions.push($scope.currentQuestion);
 			}
 
+			$scope.setProgressPercentage();
 
+			if($scope.currentQuestionIndex === 70){
+				$scope.isQuizFinished = true;
+				$scope.currentQuestionIndex = 0;
+			}
+
+			$scope.setCurrentQuestion();
+		};
+
+		$scope.setLightningQuestionResultTimer = function(isRightAnswer){
+			var timeoutTimer = (isRightAnswer) ? 500 : 2000;
+			$scope.isClickEnabled = false;
+
+			setTimeout(function(){
+						if($scope.currentQuestionIndex === 20){
+							$scope.questions.shuffle();
+							$scope.currentQuestionIndex = 0;
+						}
+						$scope.isClickEnabled = true;
+						$scope.setCurrentQuestion();
+						$scope.$apply();
+					}, timeoutTimer);
 		};
 
 		$scope.setCurrentQuestion = function(){
+			$scope.currentQuestionIndex++;
 			$scope.currentQuestion = $scope.questions[$scope.currentQuestionIndex];
 			window.scrollTo(0, 0);
 		};
@@ -108,9 +112,9 @@
 		$scope.resetQuizVariables = function(){
 			$scope.currentQuestionIndex = 0;
 			$scope.progressPercentage = 0;
-			$scope.currentQuestion = $scope.questions[$scope.currentQuestionIndex];
 			$scope.numberOfCorrectAnswers = 0;
 			$scope.failedQuestions = [];
+			$scope.setCurrentQuestion();
 
 			$scope.isQuizFinished = false;
 			$scope.lightningQuestionsEnabled = false;
@@ -118,8 +122,8 @@
 			$scope.isSubmitQuestionsEnabled = false;
 		};
 
-		$scope.getProgressPercentage = function(){
-			return Math.floor($scope.currentQuestionIndex / 70 * 100);
+		$scope.setProgressPercentage = function(){
+			$scope.progressPercentage = Math.floor($scope.currentQuestionIndex / 70 * 100);
 		};
 
 		$scope.showLandingPage = function(){
@@ -228,7 +232,18 @@
 				.attr('role', 'alert')
 				.html(message);
 
-			alert.append('<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>');
+			var button = $('<button />')
+				.attr('type', 'button')
+				.addClass('close')
+				.attr('data-dismiss', 'alert')
+				.attr('aria-label', 'Close')
+
+			var span = $('<span />')
+				.attr('aria-hidden', 'true')
+				.html('&times;');
+
+			button.append(span);
+			alert.append(button);
 
 			$('#questionForm').find('.panel-footer').prepend(alert);
     	}
@@ -241,13 +256,15 @@
     			throw "Frågan får inte vara tom!";
     		} else {
     			for(var i = 0; i < $scope.newQuestion.answers.length; i++){
-    				if($scope.newQuestion.answers[i].text.trim().length === 0){
+    				var answerToValidate = $scope.newQuestion.answers[i].text.trim().toLowerCase();
+    				if(answerToValidate.length === 0){
     					isQuestionValid = false;
     					throw "Alternativ " + (i+1) + " får inte vara tomt!";
     				} else {
     					for(var j = 0; j < $scope.newQuestion.answers.length; j ++){
+    						var answerToValidateAgainst = $scope.newQuestion.answers[j].text.trim().toLowerCase();
     						if(j !== i){
-    							if($scope.newQuestion.answers[i].text.trim().toLowerCase() === $scope.newQuestion.answers[j].text.trim().toLowerCase() ){
+    							if(answerToValidate === answerToValidateAgainst){
     								isQuestionValid = false;
     								throw "Alternativ " + (j+1) + " är en kopia av alternativ " + (i+1);
     							}
