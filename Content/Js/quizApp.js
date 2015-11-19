@@ -37,13 +37,13 @@
 		$scope.submitAnswer = function(answer, event){
 			if($scope.lightningQuestionsEnabled) {
 				var triggeredButton = $(event.target);
-				$scope.handleLightningQuestionAnswer(triggeredButton);
+				$scope.handleLightningQuestionAnswer(answer, triggeredButton);
 			} else {
-				$scope.handleRegularQuizAnswer();
+				$scope.handleRegularQuizAnswer(answer);
 			}
 		};
 
-		$scope.handleLightningQuestionAnswer = function(triggeredButton){
+		$scope.handleLightningQuestionAnswer = function(answer, triggeredButton){
 			if(answer.isRightAnswer){
 				triggeredButton.removeClass('btn-primary')
 					.addClass('btn-success');
@@ -58,7 +58,7 @@
 			}
 		};
 
-		$scope.handleRegularQuizAnswer = function(){
+		$scope.handleRegularQuizAnswer = function(answer){
 			if(answer.isRightAnswer){
 				$scope.numberOfCorrectAnswers++;
 			} else {
