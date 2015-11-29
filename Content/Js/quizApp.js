@@ -7,6 +7,7 @@
 		$scope.currentQuestionIndex = 0;
 		$scope.numberOfCorrectAnswers = 0;
 		$scope.progressPercentage = 0;
+		$scope.isQuizEnabled = false;
 		$scope.isQuizFinished = false;
 		$scope.isSubmitQuestionsEnabled = false;
 		$scope.lightningQuestionsEnabled = false;
@@ -32,7 +33,6 @@
 				$scope.questions.shuffle();
 				$scope.setCurrentQuestion();
 		});
-
 
 		$scope.submitAnswer = function(answer, event){
 			if($scope.lightningQuestionsEnabled) {
@@ -120,6 +120,7 @@
 			$scope.lightningQuestionsEnabled = false;
 			$scope.isLandingPageActive = false;
 			$scope.isSubmitQuestionsEnabled = false;
+			$scope.isQuizEnabled = false;
 		};
 
 		$scope.setProgressPercentage = function(){
@@ -134,6 +135,11 @@
 		$scope.enableLightningQuestions = function(){
 			$scope.restartQuiz();
 			$scope.lightningQuestionsEnabled = true;
+		};
+
+		$scope.enableQuiz = function(){
+			$scope.restartQuiz();
+			$scope.isQuizEnabled = true;
 		};
 
 		$scope.enableSubmitQuestions = function(){

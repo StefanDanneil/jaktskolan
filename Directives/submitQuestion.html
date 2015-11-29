@@ -1,13 +1,13 @@
 <div class="row submitQuestion content" data-ng-controller="NewQuestionController as newQuestionCtrl" data-ng-show="isSubmitQuestionsEnabled">
 			<form id="questionForm">
-				<div class="panel panel-primary">
-					<div class="panel-heading">Fyll i din fråga i formuläret nedanför</div>
+				<div class="panel panel-default">
 					<div class="panel-body" data-ng-show="!isPreviewEnabled">
 						<div class="form-group">
 							<div class="form-group">
 								<label for="QuestionText">Text</label>
 								<textarea class="form-control" id="QuestionText" placeholder="Skriv din fråga här" rows="3" data-ng-model="newQuestion.text"></textarea>
 							</div>
+							<!-- TODO: enable to submit image questions -->
 				<!-- 			<div class="checkbox">
 								<label>
 								  <input type="checkbox" id="" data-ng-model="newQuestion.isImageQuestion"> Min fråga är en bildfråga

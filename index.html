@@ -27,7 +27,7 @@
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="#" data-ng-click="restartQuiz()">Självtest</a></li>
+					<li><a href="#" data-ng-click="enableQuiz()">Självtest</a></li>
 					<li><a href="#" data-ng-click="enableLightningQuestions()">Snabba frågor</a></li>
 					<li><a href="#" data-ng-click="enableSubmitQuestions()">Bidra med frågor</a></li>
 				</ul>
@@ -36,7 +36,7 @@
 	</nav>
 	<div class="container clearNav ng-cloak">
 		<landingpage data-ng-show="isLandingPageActive"></landingpage>
-		<quiz data-ng-show="!isLandingPageActive && !isSubmitQuestionsEnabled"></quiz>
+		<quiz data-ng-show="isQuizEnabled || lightningQuestionsEnabled"></quiz>
 		<submitquestion data-ng-show="isSubmitQuestionsEnabled"></submitquestion>
 	</div>
 

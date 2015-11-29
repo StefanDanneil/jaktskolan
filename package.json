@@ -1,24 +1,33 @@
 {
-	"name" : "jaktskolan",
-	"version" : "1.0.0",
-	"description": "Jaktskolan is a webapp meant to help to train for the hunters-license theoretical exam in Sweden. This package.json holds dependencies for tests and deployment",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/StefanKarlsson/jaktskolan"
-		},
-	"dependencies" : {
-		"gulp" : "3.9.0",
-		"gulp-if": "2.0.0",
-		"gulp-minify-css": "1.2.1",
-		"gulp-mocha": "2.2.0",
-		"gulp-rename": "1.2.2",
-		"gulp-rev": "6.0.1",
-		"gulp-rev-replace": "0.4.2",
-		"gulp-uglify": "1.5.1",
-		"gulp-useref": "3.0.0",
-		"gulp-util": "3.0.7",
-		"mocha": "2.3.4",
-		"run-sequence": "1.1.4",
-		"vinyl-ftp": "0.4.5"
-	}
+  "name": "jaktskolan",
+  "version": "1.0.0",
+  "description": "Jaktskolan is a webapp meant to help to train for the hunters-license theoretical exam in Sweden. This package.json only holds dependencies for tests and deployment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StefanKarlsson/jaktskolan"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "angular-mocks": "^1.4.8",
+    "chai": "^3.4.1",
+    "gulp": "3.9.0",
+    "gulp-if": "2.0.0",
+    "gulp-minify-css": "1.2.1",
+    "gulp-mocha": "2.2.0",
+    "gulp-rename": "1.2.2",
+    "gulp-rev": "6.0.1",
+    "gulp-rev-replace": "0.4.2",
+    "gulp-uglify": "1.5.1",
+    "gulp-useref": "3.0.0",
+    "gulp-util": "3.0.7",
+    "karma": "^0.13.15",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.1",
+    "karma-mocha-reporter": "^1.1.3",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "mocha": "2.3.4",
+    "phantomjs": "^1.9.19",
+    "run-sequence": "1.1.4",
+    "vinyl-ftp": "0.4.5"
+  }
 }

@@ -6,4 +6,5 @@
 	    getData: {method:'GET', isArray: true}
 	  });
 	});
+
 })();
