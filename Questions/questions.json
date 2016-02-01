@@ -2118,5 +2118,50 @@
                 "isRightAnswer": false
             }
         ]
+    },    {
+        "text": "Hos vilken myndighet kan du efter avlagd jägarexamen ansöka om tillstånd att inneha jaktvapen?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Polismyndigheten",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Jägarförbundet",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vapenmyndigheten",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Den lokala jaktklubben",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "När börjar och slutar jaktåret?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "1 juli - 30 juni",
+                "isRightAnswer": true
+            },
+            {
+                "text": "1 januari - 31 december",
+                "isRightAnswer": false
+            },
+            {
+                "text": "1 oktober - 30 september",
+                "isRightAnswer": false
+            },
+            {
+                "text": "1 April - 31 mars",
+                "isRightAnswer": false
+            }
+        ]
     }
 ]

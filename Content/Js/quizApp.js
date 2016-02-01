@@ -191,7 +191,7 @@
 
 				var request = {
 					method: 'POST',
-					url: './API/test.php',
+					url: './API/submitQuestion.php',
 					headers: {
 						'Content-Type': 'application/json',
 						'Charset': 'UTF-8'

@@ -1,0 +1,10 @@
+{
+  "destination" : "<YOUR URL HERE>",
+  "devDestination" : "<YOUR DEV-URL HERE>",
+  "host" : {
+  	"hostname" : "<YOUR HOST HERE>",
+  	"ftpHost" : "<FTP GOES HERE>",
+  	"username" : "<YOUR HOST USERNAME HERE>",
+  	"password" : "<YOUR HOST PASSWORD HERE>"
+  }
+}
