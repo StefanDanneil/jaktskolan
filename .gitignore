@@ -2,3 +2,4 @@ Questions/submittedQuestions.json
 node_modules/**/*
 build/**/*
 npm-debug.log
+gulp.conf.json

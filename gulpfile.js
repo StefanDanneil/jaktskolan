@@ -116,6 +116,6 @@ gulp.task('deployProd', function(){
 	} );
 
 	return gulp.src( 'build/**', { base: 'build', buffer: false } )
-        .pipe( conn.newer( '/' + config.devDestination ) ) // only upload newer files
-        .pipe( conn.dest( '/' + config.devDestination ) );
+        .pipe( conn.newer( '/' + config.destination ) ) // only upload newer files
+        .pipe( conn.dest( '/' + config.destination ) );
 });

@@ -1386,23 +1386,19 @@
         "answers": [
             {
                 "text": "Vädret",
-                "isRightAnswer": false,
-                "$$hashKey": "object:7"
+                "isRightAnswer": false
             },
             {
                 "text": "Sjukdomar",
-                "isRightAnswer": false,
-                "$$hashKey": "object:8"
+                "isRightAnswer": false
             },
             {
                 "text": "Svält",
-                "isRightAnswer": false,
-                "$$hashKey": "object:9"
+                "isRightAnswer": false
             },
             {
                 "text": "Rovdjur",
-                "isRightAnswer": true,
-                "$$hashKey": "object:10"
+                "isRightAnswer": true
             }
         ]
     },
@@ -2160,6 +2156,466 @@
             },
             {
                 "text": "1 April - 31 mars",
+                "isRightAnswer": false
+            }
+        ]
+    },
+        {
+        "text": "Vilket påstående stämmer angående tjädern?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Tjädern är polygam och tuppen hjälper inte till med att ta hand om kycklingarna",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Tjädern är monogam och båda föräldrarna tar hand om kycklingarna",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Tjädern är polygam, men hanen stannar och hjälper ta hand om kycklingarna under deras första tid",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Tjädern är monogam, men enbart hönan tar hand om kycklingarna",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Orren tillhör gruppen...",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Skogshöns",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Fälthöns",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Änder",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Gäss",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Rackelhöna är en hybrid mellan",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Orre och tjäder",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Orre och järpe",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Tjäder och järpe",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Järpe och rapphöna",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken är vår största måsfågel?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Havstrut",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Fiskmås",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Gråtrut",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Silltrut",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "När infaller vildsvinens brunstperiod?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Brunst och parning kan ske när som helst under året",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Oktober-november",
+                "isRightAnswer": false
+            },
+            {
+                "text": "December-januari",
+                "isRightAnswer": false
+            },
+            {
+                "text": "November-december",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Som jägare kan man lära sig olika metoder att bedöma åldern på det vilt man skjuter.\nHur bedömer man åldern på ett hjortdjur, till exempel en älg?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Tandslitage och genom att klyva en tand och räknar antalet årsringar",
+                "isRightAnswer": true
+            },
+            {
+                "text": "På tjurarna mäter man hornkronans storlek",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Man mäter lättklövarnas längd på frambenen",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Genom att väga djuret kan man få fram en god bild av hur gammalt det är",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande påstående är riktigt?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Du ansvarar alltid själv för ett skott du lossar och dess följder",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Jaktledaren har ansvaret för att alla skott som lossas av jägare under jakt är säkra",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Det är tillåtet att skjuta på längre håll när man skjuter mot predatorer, jämfört med skott mot \"matnyttigt\" vilt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Det är tillåtet för en jägare att skjuta mot flera vilt från sitt pass, även om man inte är säker på att de tidigare påskjutna djuren fallit",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken tid på året är det vanligast att björnen jagar och dödar älg?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Under vår och försommar",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Veckorna innan den går i vintersömn",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Under sommaren",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Tidig januari",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande djur är bäst anpassad till ett liv i och intill vatten?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Mink",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Iller",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Mård",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Grävling",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vad kännetecknar kron- och dovviltets beteende vid brunsten?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Den dominante hjorten, ”platshjorten”, samlar ihop en grupp hindar och försöker hålla andra hjortar borta",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Den dominante hjorten, ”platshjorten”, parar sig bara med äldre hindar",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Hindarna föredrar ofta att para sig med unga hjortar",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Hindarna föredrar ofta att para sig med äldre hjortar",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "När infaller älgens brunstperiod?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Slutet av september – början av oktober",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Slutet av juli – början av augusti",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Slutet av oktober - början av november",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Slutet av juni - början av juli",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vad kännetecknar dovhjortens horn?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Hjortarna utvecklar skovelformade horn",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Hornen fejas i oktober-november",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Hornen fälls redan i januari-februari",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Dovhjortens horn fälls aldrig då det är ett så kallat slidhornsdjur",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vad innebär uttrycket \"praktdräkt\" hos olika arter av änder?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Hanen bär en färgrik praktdräkt från hösten fram till sommarens ruggning",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Hanen får en färgrik praktdräkt på våren, strax innan häckningen",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Hanen och honan har under vår och sommar en färgrik praktdräkt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Honan byter till en praktdräkt innan vårens häckning",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vad menas med att hunden \"tagit upp\"?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Hunden har fått fart på bytesdjuret",
+                "isRightAnswer": true
+            },
+            {
+                "text": "unden börjar jaga \"fel\" sorts vilt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Hunden hittade matte\/husse",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Hunden har hämtat fälld fågel och har den i munnen",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vad menas med populationstäthet?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "antalet individer per ytenhet av en art",
+                "isRightAnswer": true
+            },
+            {
+                "text": "antalet individer i populationen",
+                "isRightAnswer": false
+            },
+            {
+                "text": "populationens geografiska utbredning",
+                "isRightAnswer": false
+            },
+            {
+                "text": "antalet honor i populationen i procent",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "När solen har gått ner och du jagar under den så kallade \"skymningstimmen\" (en timme efter solens nedgång) är inte alla arter lovliga att jaga.\nI vilket av alternativ nedan får alla viltarter jagas under \"skymningstimmen\"?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Dovhjort, rådjur och vildsvin",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Björn, vildsvin och kronhjort",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vildsvin, älg och rådjur",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Rådjur, vildsvin och snatterand",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Du är bjuden på vaktjakt på råbock 20 augusti. Vilket av följande alternativ anger \"minimikrav\" för ditt val av vapen och ammunition?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Kulgevär och ammunition i klass 2 och expanderande kula",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Kulgevär och ammunition i klass 3 och expanderande kula",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kulgevär och ammunition i klass 1 och helmantlad kula",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kulgevär och ammunition i klass 4 och expanderande kula",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken av följande fåglar förekommer främst i sydsveriges jordbruksbygder?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Råka",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Kråka",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Nötskrika",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kaja",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vad betyder \"avance\" när man pratar om stående fågelhundar?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Resning",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Fullfart!",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Stilla",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Apport",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilka arter har sin boplats i ihåliga träd eller holkar?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Knipa och storskrake",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Bergand och vigg",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kricka och sjöorre",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Ejder och bläsand",
                 "isRightAnswer": false
             }
         ]
