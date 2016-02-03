@@ -10,7 +10,8 @@ var gulp = require('gulp'),
 	rev = require('gulp-rev'),
 	revReplace = require('gulp-rev-replace'),
 	Server = require('karma').Server,
-	config = require('./gulp.conf.json');
+	config = require('./gulp.conf.json'),
+	jsonminify = require('gulp-jsonminify');
 
 gulp.task('default', function() {
 	runSequence(
@@ -72,6 +73,7 @@ gulp.task('directives', function(){
 
 gulp.task('questions', function(){
 	return gulp.src('Questions/**/*')
+		.pipe(jsonminify())
 		.pipe(gulp.dest('build/Questions'));
 });
 
