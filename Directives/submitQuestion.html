@@ -7,16 +7,15 @@
 								<label for="QuestionText">Text</label>
 								<textarea class="form-control" id="QuestionText" placeholder="Skriv din fråga här" rows="3" data-ng-model="newQuestion.text"></textarea>
 							</div>
-							<!-- TODO: enable to submit image questions -->
-				<!-- 			<div class="checkbox">
+							<div class="checkbox">
 								<label>
 								  <input type="checkbox" id="" data-ng-model="newQuestion.isImageQuestion"> Min fråga är en bildfråga
 								</label>
 							</div>
 							<div class="form-group" data-ng-show="newQuestion.isImageQuestion">
 								<label for="questionImage">Ladda upp en bild</label>
-								<input type="file" id="questionImage">
-							</div> -->
+								<input type="file" file-model="myFile" id="questionImage">
+							</div>
 							<div class="form-group">
 								<label for="answer1" class="text-success">Alternativ 1 - Rätt alternativ</label>
 								<input type="text" class="form-control" id="answer1" data-ng-model="newQuestion.answers[0].text" placeholder="Alterativ 1" />
