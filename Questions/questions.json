@@ -2619,5 +2619,1798 @@
                 "isRightAnswer": false
             }
         ]
+    },
+    {
+        "text": "Vad är skillnaden mellan en åtel och en utfodringsplats?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Du både jagar och utfodrar viltet vid åteln medan du bara enbart utfodrar viltet vid en utfodringsplats",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Det är ingen skillnad, båda är ord för samma sak",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Du både jagar och utfodrar viltet vid utfodringsplatsen medan du bara enbart utfodrar viltet vid en åtel",
+                "isRightAnswer": false
+            },
+            {
+                "text": "En åtel kantar mot vatten medan en utfodringskant gör inte det.",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken av följande arter jagas ofta med hjälp av drivande hund?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Hare",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Vildsvin",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Älg",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Grävling",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken av följande jaktmetoder är vanligt förekommande i välttäta områden där det är lätt att placera ut flera passskyttar som avgränsar såtarna?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Jakt med kortdrivande hund",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Jakt med trädskällare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jakt med stående hund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jakt med ledhund",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken jaktmetod används ofta vid jakt efter ripa och rapphöns?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Jakt med stående hund",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Jakt med ställande hund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jakt med kortdrivande hund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jakt med trädskällare",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vid vilken jaktmetod är det vanligt att man använder hundar av raserna tysk jaktterrier, tax eller borderterrier?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Grytjakt",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Jakt med stöthundar och kortdrivare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jakt med ställande hund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Uppsprångsjakt",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilka arter jagas ofta med hjälp av bulvaner?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Kråka och ringduva",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Skata och nötskrika",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Järpe och fasan",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Morkulla och kaja",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "vilken jaktform är vanlig vid jakt på änder?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Jakt med hjälp av vettar",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Jakt med apporterande hund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jakt med ledhund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Lockjakt",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande djur jagas ofta med jaktmetoden lockjakt i anslutning till djurets brunst?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Råbock",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Grävlingshane",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Rävhane",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vildsinsgalt",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande påståenden är riktigt avseende jakt med fälla?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Fälltypen som används måste vara testad och godkänd för den art man vill fånga",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Inga speciella krav ställs på hur fällan är konstruerad",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Endast vissa arter av däggdjur får fångas i fälla",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Endast godkända fällor för levandefångst får användas",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande påståenden är riktigt när du som jägare sitter på pass under en klövviltsjakt och har skjutit på ett klövvilt som efter skottet försvunnit från platsen?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Du försöker komma ihåg exakt var djuret befann sig när skottet lossades och hur djuret reagerade i skottögonblicket",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Du efter skottet lämnar ditt pass och börjar leta efter blod eller hår på skottplatsen",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Du laddar om ditt vapen och är beredd på att skjuta om det skulle dyka upp nya djur",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Du lämnar snarast ditt pass och går till närmaste passgranne och börjar planera eftersöket",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilka tre arter av säl finns längs de svenska kusterna?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Gråsäl, knubbsäl och vikare",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Knubbsäl, pälssäl och vilkare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Storsäl, gråsäl och knubbsäl",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vikare, gråsäl och sjölejon",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande djur lever ofta i en flock?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Varg",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Mink",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Björn",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Lodjur",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av de svenska hjortdjuren brunstar sist under hösten?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Dovvilt",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Kronvilt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Rådjur",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Älg",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande påståenden är riktigt om vildsvinets brunsttid?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Vildsvinet har ingen bestämd brunsttid",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Vildsvinet brunstar alltid i oktober-december",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vildsvinet brunstar bara en gång vartannat år",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vildsvinet brunstar oftast i februari",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande djur fäller inte sina horn varje år?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Mufflon",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Kronhjort",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Dovhjort",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Älg",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av våra hjortdjur kan sägas vara den främste \"finsmakaren\" och ganska kräsen vid val av föda?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Rådjur",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Kronvilt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Älg",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Dovvilt",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande alternativ innehåller bara simänder?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Gräsand, bläsand och årta",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Bläsand, knipa och gräsand",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Stjärtand, skedand och ejder",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Snatterand, kricka och vigg",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande alternativ innehåller bara dykänder?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Knipa, vigg och bergand",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Snatterand, vigg och sjöorre",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Skedand, ejder och sjöorre",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kricka, brunand och alfågel",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "vVilken av följande fåglar räknas till gruppen fälthöns?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Vaktel",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Järpe",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Orre",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Dalripa",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken är den främsta anledningen till att man i Sverige bedriver viltforskning på det jaktbara viltet och andra viltarter som påverkar det jaktbara viltet?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Det finns ett stort kunskapsbehov för att jakt och viltförvaltning ska kunna bedrivas på ett bra och etiskt sätt",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Det jaktbara viltet har ett stort ekonomiskt värde",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Enligt det svenska jaktlagstiftningen måste man bedriva viltforskning",
+                "isRightAnswer": false
+            },
+            {
+                "text": "För att jägarna ska få bra kunskap och genom rätt åtgärder kunna öka stammarna av de jaktbara arterna",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "På vilket sätt bidrar jägarna i Sverige till att viltforskning kan bedrivas?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Genom att betala den statliga viltvårdsavgiften",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Genom att skjuta jaktbart vilt så att viltpopulationerna alltid är på en normal nivå",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Genom att ta jägarexamen",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Genom att alltid rapportera alla observationer av vilt till den ansvarige jaktledaren",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken av följande naturtyper är mest utsatt för risken att betas hårt av vilt så att markägaren riskerar att lida ekonomisk skada?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Planteringar och ungskogar av tall eller lövskog",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Äldre granskog",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Äldre blandskog med bärris",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Myrområden",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken av följande arter kan orsaka stor skada på växande gröda?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Vildsvin",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Rådjur",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Fälthare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Björn",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken typ av skog är särskilt utsatt för betesskador av älg?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Planteringar och ungskog av tall",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Medelålders granskog",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Medelålders tallskog",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Planteringar och ungskog av gran",
+                "isRightAnswer": false
+            }
+        ]
+    },{
+        "text": "Vilken av följande arter jagas ofta med hjälp av drivande hund?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Hare",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Vildsvin",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Älg",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Grävling",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken av följande jaktmetoder är vanligt förekommande i välttäta områden där det är lätt att placera ut flera passskyttar som avgränsar såtarna?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Jakt med kortdrivande hund",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Jakt med trädskällare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jakt med stående hund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jakt med ledhund",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken jaktmetod används ofta vid jakt efter ripa och rapphöns?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Jakt med stående hund",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Jakt med ställande hund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jakt med kortdrivande hund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jakt med trädskällare",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vid vilken jaktmetod är det vanligt att man använder hundar av raserna tysk jaktterrier, tax eller borderterrier?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Grytjakt",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Jakt med stöthundar och kortdrivare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jakt med ställande hund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Uppsprångsjakt",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilka arter jagas ofta med hjälp av bulvaner?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Kråka och ringduva",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Skata och nötskrika",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Järpe och fasan",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Morkulla och kaja",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "vilken jaktform är vanlig vid jakt på änder?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Jakt med hjälp av vettar",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Jakt med apporterande hund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jakt med ledhund",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Lockjakt",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande djur jagas ofta med jaktmetoden lockjakt i anslutning till djurets brunst?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Råbock",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Grävlingshane",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Rävhane",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vildsinsgalt",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande påståenden är riktigt avseende jakt med fälla?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Fälltypen som används måste vara testad och godkänd för den art man vill fånga",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Inga speciella krav ställs på hur fällan är konstruerad",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Endast vissa arter av däggdjur får fångas i fälla",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Endast godkända fällor för levandefångst får användas",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande påståenden är riktigt när du som jägare sitter på pass under en klövviltsjakt och har skjutit på ett klövvilt som efter skottet försvunnit från platsen?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Du försöker komma ihåg exakt var djuret befann sig när skottet lossades och hur djuret reagerade i skottögonblicket",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Du efter skottet lämnar ditt pass och börjar leta efter blod eller hår på skottplatsen",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Du laddar om ditt vapen och är beredd på att skjuta om det skulle dyka upp nya djur",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Du lämnar snarast ditt pass och går till närmaste passgranne och börjar planera eftersöket",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilka tre arter av säl finns längs de svenska kusterna?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Gråsäl, knubbsäl och vikare",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Knubbsäl, pälssäl och vilkare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Storsäl, gråsäl och knubbsäl",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vikare, gråsäl och sjölejon",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande djur lever ofta i en flock?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Varg",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Mink",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Björn",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Lodjur",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av de svenska hjortdjuren brunstar sist under hösten?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Dovvilt",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Kronvilt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Rådjur",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Älg",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande påståenden är riktigt om vildsvinets brunsttid?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Vildsvinet har ingen bestämd brunsttid",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Vildsvinet brunstar alltid i oktober-december",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vildsvinet brunstar bara en gång vartannat år",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vildsvinet brunstar oftast i februari",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande djur fäller inte sina horn varje år?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Mufflon",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Kronhjort",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Dovhjort",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Älg",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av våra hjortdjur kan sägas vara den främste \"finsmakaren\" och ganska kräsen vid val av föda?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Rådjur",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Kronvilt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Älg",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Dovvilt",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande alternativ innehåller bara simänder?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Gräsand, bläsand och årta",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Bläsand, knipa och gräsand",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Stjärtand, skedand och ejder",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Snatterand, kricka och vigg",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande alternativ innehåller bara dykänder?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Knipa, vigg och bergand",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Snatterand, vigg och sjöorre",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Skedand, ejder och sjöorre",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kricka, brunand och alfågel",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "vVilken av följande fåglar räknas till gruppen fälthöns?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Vaktel",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Järpe",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Orre",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Dalripa",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken är den främsta anledningen till att man i Sverige bedriver viltforskning på det jaktbara viltet och andra viltarter som påverkar det jaktbara viltet?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Det finns ett stort kunskapsbehov för att jakt och viltförvaltning ska kunna bedrivas på ett bra och etiskt sätt",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Det jaktbara viltet har ett stort ekonomiskt värde",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Enligt det svenska jaktlagstiftningen måste man bedriva viltforskning",
+                "isRightAnswer": false
+            },
+            {
+                "text": "För att jägarna ska få bra kunskap och genom rätt åtgärder kunna öka stammarna av de jaktbara arterna",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "På vilket sätt bidrar jägarna i Sverige till att viltforskning kan bedrivas?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Genom att betala den statliga viltvårdsavgiften",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Genom att skjuta jaktbart vilt så att viltpopulationerna alltid är på en normal nivå",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Genom att ta jägarexamen",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Genom att alltid rapportera alla observationer av vilt till den ansvarige jaktledaren",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken av följande naturtyper är mest utsatt för risken att betas hårt av vilt så att markägaren riskerar att lida ekonomisk skada?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Planteringar och ungskogar av tall eller lövskog",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Äldre granskog",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Äldre blandskog med bärris",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Myrområden",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken av följande arter kan orsaka stor skada på växande gröda?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Vildsvin",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Rådjur",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Fälthare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Björn",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken typ av skog är särskilt utsatt för betesskador av älg?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Planteringar och ungskog av tall",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Medelålders granskog",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Medelålders tallskog",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Planteringar och ungskog av gran",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken insats ger normalt sett bäst resultat om man vill gynna viltet på lång sikt?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Förbättring av viltets biotoper",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Begränsa allt så kallat rörligt friluftsliv",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Utsättning av uppfött vilt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Omfattande utfodring",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande alternativ beskriver ett bra sätt att förbättra och öka mängden viltbete i skogen?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Fällning och halvfällning av lämpliga träd samt toppröjning",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Igenläggning av gamla skogsdiken",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Sprida konstgödsel i skogen",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vid avverkning lämna kvar alla grenar och kvistar",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken av följande viltvårdsåtgärder kan vara ett bra komplement till andra viltvårdsinsatser, som biotopförbättringar, om man har som mål att öka antalet fasaner och harar?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Predatorjakt",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Utplacering av saltstenar",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Se till att det finns gott om vatten",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Öka avskjutningen av klövvilt",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Ditt jaktlag vill försöka öka antalet rådjur och harar på jaktområdet. Vilket av följande alternativ är normalt sett den bästa metoden om man vill lyckas med detta?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Öka avskjutningen av räv och stödutfodra under vintern",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Skapa jaktfria områden där viltet inte störs",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Utplantering av rådjur och hare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Öka stödutfodringen",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket är hagelvapnets huvudsakliga användningsområde vid jakt?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Snabbt, reflexmässigt skytte på korta avstånd",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Precisionsskytte där man siktar noggrant",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Snabba skott på avstånd upp till 40 meter",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Skytte på korta avstånd och med hög precision",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande alternativ beskriver bäst uttrycket trångborrning?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Åtstrypningen i mynningen på ett hagelgevär och dess effekt på hagelsvärmens spridning",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Att patronläget i en kulpipa är något trängre än patronen så att krutgaserna inte tränger ut bakåt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Ett kikarsiktesmontage som innebär att skruvhålen är borrade trångt så att kikaren sitter säkrare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kulvapen i kraftiga så kallade magnumkalibrar har alltid trångborrade pipor",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande påståenden är riktigt när det gäller hagelvapnets kaliber vid jakt?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Det är patronens hagelladdning, inte kalibern som avgör skottets effektivitet",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Kaliber 12 är alltid mest effektiv vid skott mot vilt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kaliber 16 är bästa valet vid jakt på fågel",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Siffran 12, 16, 20 och så vidare är ett mått på patronlägets längd i hagelvapnet",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket alternativ anger det mest lämpliga valet av trångborrning i ett dubbelpipigt hagelvapen som ska användas vid svensk skogsjakt?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Kvarts och halv trångborrning",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Cylinder på båda piporna",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Full och trekvarts trångborrning",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Trekvarts och halv trångborrning",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "I en pipa på ett kulvapen finns räfflor. Vad har dessa för funktion?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Tvinga kulan att rotera så den får bättre stabilitet",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Skydda pipan mot slitage",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Öka hastigheten på kulan",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Hindra att pipan blir för varm när man skjuter många skott",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vid vilken av följande jaktformer kan det vara lämpligt att välja ett kombinationsvapen?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Skogsjakt där det jagas till exempel älgkalv, rådjur och hare samtidigt",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Jakt efter hare med stövare",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Älgjakt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Dovjakt med stöthund",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket är det längsta avstånd som bör användas vid skott mot vilt med hagelvapen laddade med hagelpatron?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "25 meter",
+                "isRightAnswer": true
+            },
+            {
+                "text": "15 meter",
+                "isRightAnswer": false
+            },
+            {
+                "text": "40 meter",
+                "isRightAnswer": false
+            },
+            {
+                "text": "50 meter",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande påståenden är riktigt när det gäller val av hagelpatron till ett hagelvapen?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Skjut aldrig med patroner som är längre än vapnet är avsett för",
+                "isRightAnswer": true
+            },
+            {
+                "text": "En 70mm patron blir mer effektiv om den skjuts i ett vapen med 65mm patronläge",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Det kan vara riskabelt att skjuta en 65mm patron i ett vapen med 70mm patronläge",
+                "isRightAnswer": false
+            },
+            {
+                "text": "De flesta moderna hagelvapen i kaliber 12 har 65mm patronlägen",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vad innebär uttrycket hagelladdning?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Haglens sammanlagda vikt",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Krutladdningens vikt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Patronens vikt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Storleken på haglen i patronen",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilken är den största diameter ett hagel får ha vid jakt i Sverige?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "4mm (US1)",
+                "isRightAnswer": true
+            },
+            {
+                "text": "3,5mm (US3)",
+                "isRightAnswer": false
+            },
+            {
+                "text": "6mm (BB)",
+                "isRightAnswer": false
+            },
+            {
+                "text": "3mm (US5)",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Hur fungerar en kula av normalt expanderande typ vid träff i större vilt?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "När kulan träffar viltet trycks kulan ihop och formas likt en svamp",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Den håller formen och går rakt igenom viltet",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Den välter så fort den träffar viltet och orsakar därmed stor skada",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kulan splittras helt i målet och skottverkan blir stor",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Kulvapen för jakt delas in i olika klasser. vilket alternativ beskriver det som styr denna klassindelning?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Kulans anslagsenergi, vikt och konstruktion",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Kulans anslagsenergi och vapnets kaliber",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vapnets kaliber och anslagsenergi",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vapnets kaliber och kulans vikt",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket påstående är riktigt när det gäller skott med hagelvapen mot rådjur?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Skjut endast sidskott",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Skjutavståndet ska aldrig vara större än 30m",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Skjut endast sidskott och motskott",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Använd helst största tillåtna hagelstorlek",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Var ska du placera skottet om när du skjuter mot ett oskadat klövvilt med kulgevär?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Lungorna",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Levern",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Ryggraden",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Halsen",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Var bör skytten fästa blicken vid skytte med hagelvapen mot rörliga mål?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "På målet",
+                "isRightAnswer": true
+            },
+            {
+                "text": "På kornet",
+                "isRightAnswer": false
+            },
+            {
+                "text": "På siktet",
+                "isRightAnswer": false
+            },
+            {
+                "text": "På pipan",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket alternativ beskriver bäst en riktigt utförd anläggning med ett hagelvapen?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Ett lugnt och mjukt lyft med vapnet till axeln i en kontrollerad rörelse",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Ett snabbt lyft med vapnet till axeln och avfyra snabbt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Ett snabbt lyft med vapnet till axeln och sedan sikta noga",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Ett lugnt lyft med vapnet till axeln och sedan sikta noggrant",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "När du svingar vapnet mot ett rörligt mål måste du röra kroppen. I vilka kroppsdelar ska rörelsen huvudsakligen ske?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Vrister, knän och höfter",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Armar och axlar",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Armar och fötter",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Alla kroppsdelar över midjan",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket alternativ beskriver en bra anläggning med ett kulvapen med kikarsikte?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "När vapnet lagts an mot axeln ska bilden i kikaren vara fullstor och klar utan att du behöver flytta huvudet. Kolven ska tryckas hårt mot kinden.",
+                "isRightAnswer": true
+            },
+            {
+                "text": "När vapnet ligger an mot axeln rör man huvudet så att man får bästa möjliga bild i kikarsiktet",
+                "isRightAnswer": false
+            },
+            {
+                "text": "När vapnet ligger an mot axeln ska ögat vara cirka 2-3 cm från kikarsiktet",
+                "isRightAnswer": false
+            },
+            {
+                "text": "När det är en svart ring i ytterkanterna på kikaren är man på rätt avstånd till kikaren",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Hur ska avfyrningstekniken vara för att ett bra skott på fri hand mot stillasittande mål?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Rikta under målet, höj pipan sakta och krama av skottet när kanten på träffområdet nås utan att stanna rörelsen",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Håll stilla där du ska träffa och krama sedan av skottet",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Gå ovanifrån neråt med pipan och avfyra när du når mitten av målet",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Gå in från höger och avfyra när du är i höger kant av träffområdet utan att stanna rörelsen",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket påstående är riktigt när man jagar på vintern och det är snö och kallt?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Det är viktigt att det inte kommer in snö i vapnets pipa",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Man får aldrig skjuta med kulvapen om det snöar",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Man behöver inte vara lika noggrann med kulfång vid skott mot vilt eftersom snön stoppar kulan mycket effektivt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Man måste skjuta med större framförhållning mot rörligt vilt om det är minusgrader eftersom krutet i patronen antänds mycket långsammare",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vid ett avbrott under en älgjakt ska du lägga in ditt kulgevär i bilen. Kikarsiktet på vapnet råkar slå i bakluckan och det blir ett märke på kikarsiktet. Vilket av följande alternativ är riktigt i denna situation?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Provskjut vapnet innan du sätter dig på nästa pass",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Avbryt jakten, du måste lämna in vapnet och kikarsiktet till en vapentekniker",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Fortsätt jakten, moderna kikarsikten är mycket oömma och tål det mesta",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Kontrollera kikarfästets skruvar så att dessa är åtdragna innan du sätter dig på pass igen",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Du sitter på pass med ditt kulgevär. Jaktledaren meddelar på jaktradion att jakten är avslutad och att ni ska återsamlas. Vad ska du särskilt tänka på i denna situation?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Gör patron ur och klättra ner",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Ta kontakt med dina närmaste passgrannar och kontrollera att de har uppfattat meddelandet",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Smyg sakta och tyst från ditt pass då man ofta får en skottchans då andra passkyttar går från sina pass",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Sitt kvar på passet innan du gör patron ur",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande påståenden är riktigt när det gäller jakt med kulvapen?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Sträva efter att använda stöd när du skjuter",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Skjut alltid sittande eller knästående",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Skjut alltid stående",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Använd ett vapen med kikarsikte som har variabel förstoring",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Du står på pass med ditt hagelgevär under en rådjursjakt. Ett rådjur kommer rakt mot dig. Avståndet är 15-20 meter. Vilket av följande alternativ är riktigt?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Vänta med skottet tills djuret viker av och visar sidan",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Avstå skott, det är för långt håll",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Skjut, skottillfället är bra",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Skjut om rådjuret kommer närmare",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Du är bjuden på bäverjakt och smyger med ditt kulgevär längs en bred å. Plötsligt får du se en bäver komma simmande mot dig på cirka 100m avstånd. Du ställer dig bakom ett träd och tar stöd för vapnet mot trädet. Vad ska du särskilt tänka på i denna situation?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Skjut endast om bävern går upp på land",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Skjut alltid mot huvud och hals",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Att kulgevär och ammunition måste uppfylla kraven för klass 1",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Att bävern är \"hårdskjuten\" och att du alltid ska försöka skjuta minst två skott",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Du står på pass under en älgjakt. Rakt framför dig dyker det upp en svampplockare som har en hund i koppel. Svampplockaren har ännu inte sett dig. Hur bör du göra i denna situation?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Sök kontakt med svampplockaren och berätta i vilket område som jakten pågår",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Försök gömma dig så att du inte behöver bli störd i din jakt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Gå fram och förklara att svampplockning inte är tillåtet när jakt pågår",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Stå kvar på passet och ropa att svampplockaren av säkerhetsskäl måste lämna området",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Då är på älgjakt och sitter på pass i kanten av ett stort hygge. En bit bort längs hyggeskanten står din jaktkamrat på pass. Ute på hygget dyker det upp en älg som är på väg till din kamrat. Du sitter i ett torn och har bra stöd för ditt vapen och siktar mot älgens bredsida. Ditt avstånd till älgen är ca 130 meter. vilket av följande alternativ är riktigt?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Avstå skott, älgen är på väg mot din kamrat som sannolikt får ett bättre skottillfälle",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Skrik och vifta så att älgen verkligen fortsätter mot din kamrat",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Skjut älgen",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Avstå skott, man får aldrig skjuta mot en älg i rörelse",
+                "isRightAnswer": false
+            }
+        ]
     }
 ]

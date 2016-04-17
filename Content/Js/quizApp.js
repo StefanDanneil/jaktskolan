@@ -190,19 +190,7 @@ app.controller('NewQuestionController', ['$scope', 'fileUpload', '$http', functi
 		try {
 			self.validateNewQuestion();
 
-			// var request = {
-			// 	method: 'POST',
-			// 	url: './API/submitQuestion.php',
-			// 	headers: {
-			// 		'Content-Type': 'application/json',
-			// 		'Charset': 'UTF-8'
-			// 	},
-			// 	data: { question: JSON.stringify($scope.newQuestion) }
-			// };
-
 			$scope.postForm();
-
-			// $http(request);
 
 			$scope.newQuestion = {
 				text: "",
@@ -236,11 +224,11 @@ app.controller('NewQuestionController', ['$scope', 'fileUpload', '$http', functi
 	};
 
 	$scope.postForm = function(){
-				var file = $scope.myFile;
-				var question = JSON.stringify($scope.newQuestion);
-				var uploadUrl = "./API/submitQuestion.php";
-				fileUpload.uploadFileToUrl(file, question, uploadUrl);
-			};
+		var file = $scope.myFile;
+		var question = JSON.stringify($scope.newQuestion);
+		var uploadUrl = "./API/submitQuestion.php";
+		fileUpload.uploadFileToUrl(file, question, uploadUrl);
+	};
 
 	this.giveUserAlert = function(alertType, message){
 		var alert = $('<div />')
@@ -262,7 +250,7 @@ app.controller('NewQuestionController', ['$scope', 'fileUpload', '$http', functi
 		alert.append(button);
 
 		$('#questionForm').find('.panel-footer').prepend(alert);
-	}
+	};
 
 	this.validateNewQuestion = function(){
 		var isQuestionValid = true;
