@@ -4412,5 +4412,235 @@
                 "isRightAnswer": false
             }
         ]
+    },
+    {
+        "text": "Vad heter de tre viktigaste regelverken som beskriver hur jakt får bedrivas?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Jaktlagen, jaktförordningen och Naturvårdsverkets föreskrifter och allmänna råd om jakt och statens vilt",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Vapenlagen, jaktförordningen och Rikspolisstyrelsens föreskrifter och allmänna råd om vapenlagstiftningen",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jaktlagen, vapenförordningen och Naturvårdsverkets föreskrifter och allmänna råd om jakt och statens vilt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Jaktförordningen, vapenkungörelsen och jaktlagen",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilka krav gäller för tillgång och användning av eftersökshund vid jakt efter klövvilt, björn, varg, järv och lodjur?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "En hund som är särskilt tränad i eftersöksarbete måste kunna finnas på plats inom två timmar efter påskjutningen",
+                "isRightAnswer": true
+            },
+            {
+                "text": "En hund som är särskilt tränad i eftersöksarbete måste medföras vid jakten",
+                "isRightAnswer": false
+            },
+            {
+                "text": "En hund som kan spåra vilt måste medföras vid jakten",
+                "isRightAnswer": false
+            },
+            {
+                "text": "En hund som är särskilt tränad i eftersöksarbete måste kunna finnas på plats inom fyra timmar efter påskjutningen",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "På väg till samlingen inför dagens jakt upptäcker du på ditt jaktområde ett rådjur från bilen. Du åker och parkerar bilen cirka 500 meter därifrån och laddar ditt vapen. Får du skjuta rådjuret?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Ja, men bara om du smyger dig fram till skottposition så att rådjuret under en viss tid har fått en rimlig chans att upptäcka dig",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Ja, om du väntar minst 20 minuter innan du skjuter",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Ja, om du väntar minst 5 minuter innan du skjuter",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Nej, man får inte skjuta ett djur som man har sett från bilen",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "under pågående älgjakt ber jaktledaren dig byta pass och ta bilen för att snabbt förflytta dig till en bättre position för att kunna skjuta en älg. Vilket av följande påståenden är riktigt?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Du får inte använda dig av bilen",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Man får alltid använda bilfen för att förflytta sig",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Man får ta bilen om man åker högst en kilometer",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Endast motordriven fyrhjuling eller snöskoter får användas",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Du har skjutit en älg som försvunnit från skottplatsen, får du ta bilen för att försöka genskjuta den i syfte att skjuta ett dödande skott",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Ja, om du på skottplatsen har hittat bevis på att älgen är skadad",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Ja",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Ja, om du kör högst en kilometer",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Nej",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vilket av följande påståenden är riktigt när det gäller att skjuta en räv som angripits av skabb?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Räven får avlivas om den är så angripen att det är nödvändigt av djurskyddsskäl för att förkorta rävens lidande",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Räven får bara avlivas under allmän jakttid",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Endast skabbangripna årsungar får avlivas, äldre rävar överlever oftast",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Vid avlivningen måste minst kulgevär i klass 3 användas",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Under en jakt skadskjuter du ett rådjur med ditt kulgevär. Jaktledaren ber dig att testskjuta vapnet. Du upptäcker då att träffläget med jaktammunitionen inte stämmer överens med övningsammunitionen som du har använt vid inskjutningen. Kan det vara brottsligt?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Ja, om du inte kontrollskjutit ditt vapen med jaktammunitionen före jakten",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Nej",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Ja, men endast om rådjuret inte återfinns och avlivas vid eftersöket",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Ja, men endast om du skjutit mot rådjuret på längre avstånd än 80 meter",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Vem är ansvarig för att viltvård bedrivs?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Jakträttshavaren och markägaren",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Endast jakträtthavaren",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Endast markägaren",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Staten",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "För vilka arter får du vid jakt använda fast belysning som satts upp i annat syfte än att underlätta jakten, till exempel gatubelysning?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Mårdhund, rödräv, grävling och vildsvin",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Hare, rödräv, grävling och vildsvin",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Mufflonfår, rödräv, grävling och vildsvin",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Rådjur, mårdhund, grävling och vildsvin",
+                "isRightAnswer": false
+            }
+        ]
+    },
+    {
+        "text": "Får du använda så kallade mörkersikten (elektroniska bildförstärkare) på ditt vapen vid jakt efter vildsvin med hund?",
+        "isImageQuestion": false,
+        "imageUrl": null,
+        "answers": [
+            {
+                "text": "Ja, men endast efter tillstånd från länsstyrelsen",
+                "isRightAnswer": true
+            },
+            {
+                "text": "Ja",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Ja, men endast vid åteljakt",
+                "isRightAnswer": false
+            },
+            {
+                "text": "Nej",
+                "isRightAnswer": false
+            }
+        ]
     }
 ]
