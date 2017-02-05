@@ -1,0 +1,12 @@
+{
+    "name": "stefankarlsson/jaktskolan",
+    "authors": [
+        {
+            "name": "Stefan Karlsson",
+            "email": "karlssonstefan@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}

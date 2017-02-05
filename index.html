@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html data-ng-app="quiz">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta http-equiv="src-Type" src="text/html; charset=utf-8" />
+	<meta name="viewport" src="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" src="yes">
 	<title>Jaktskolan</title>
-	<link href="Content/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
-	<link rel="apple-touch-icon" href="Content/images/deerWhite_64x64.png">
-	<!-- build:css Content/css/styles.css -->
-	<link href="Content/css/bootstrap.css" rel="stylesheet" />
-	<link href="Content/css/style.css" rel="stylesheet" />
-	<link href="Content/css/animate.css" rel="stylesheet" />
+	<link href="src/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="src/images/deerWhite_64x64.png">
+	<!-- build:css src/css/styles.css -->
+	<!-- <link href="src/css/bootstrap.css" rel="stylesheet" /> -->
+	<link href="dist/css/bundle.css" rel="stylesheet" />
+	<!-- <link href="src/css/animate.css" rel="stylesheet" /> -->
 	<!-- endbuild -->
 </head>
 <body data-ng-controller="QuestionController as qstCtrl">
@@ -40,17 +40,6 @@
 		<submitquestion data-ng-show="isSubmitQuestionsEnabled"></submitquestion>
 	</div>
 
-	<!-- build:js Content/scripts/script.js -->
-	<script type="text/javascript" src="Content/Js/jquery-2.1.4.min.js"></script>
-	<script type="text/javascript" src="Content/Js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="Content/Js/angular.min.js"></script>
-	<script type="text/javascript" src="Content/Js/angular-resource.js"></script>
-	<script type="text/javascript" src="Content/Js/extendArrayPrototype.js"></script>
-	<script type="text/javascript" src="Content/Js/quizApp.js"></script>
-	<script type="text/javascript" src="Content/Js/appServices.js"></script>
-	<script type="text/javascript" src="Content/Js/appDirectives.js"></script>
-	<script type="text/javascript" src="Content/Js/fastclick.js"></script>
-	<script type="text/javascript" src="Content/Js/attachFastClick.js"></script>
-	<!-- endbuild -->
+	<script type="text/javascript" src="dist/bundle.js"> </script>
 </body>
 </html>
