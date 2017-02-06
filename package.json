@@ -10,7 +10,7 @@
     "watchAndServe": "webpack --watch & php -S localhost:3000",
     "build": "webpack --progress",
     "serve": "php -S localhost:3000",
-    "test": "jest --watch"
+    "test": "jest"
   },
   "dependencies": {
     "angular": "^1.6.1",
