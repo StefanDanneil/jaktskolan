@@ -6,19 +6,27 @@
     "type": "git",
     "url": "https://github.com/StefanKarlsson/jaktskolan"
   },
+  "jest": {
+    "testPathDirs": [
+      "tests"
+    ],
+    "setupTestFrameworkScriptFile": "./tests/jest.init.js"
+  },
   "scripts": {
-    "watchAndServe": "webpack --watch & php -S localhost:3000",
+    "start": "webpack --watch & php -S localhost:3000",
     "build": "webpack --progress",
-    "serve": "php -S localhost:3000",
-    "test": "jest"
+    "test": "jest",
+    "testWatch": "jest --watch"
   },
   "dependencies": {
     "angular": "^1.6.1",
+    "angular-resource": "^1.6.1",
     "animate.css": "^3.5.2",
     "bootstrap": "^3.3.7",
     "jquery": "^3.1.1"
   },
   "devDependencies": {
+    "angular-mocks": "^1.6.1",
     "css-loader": "^0.26.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",

@@ -1,12 +1,12 @@
 (function(){
   //vendor javascript
   require("angular");
+  require("angular-resource");
   require("jQuery");
   require("bootstrap");
 
 
   // our javascript
-  require('./js/angular-resource.js');
   require('./js/appDirectives.js');
   require('./js/appServices.js');
   require('./js/bootstrap.js');
