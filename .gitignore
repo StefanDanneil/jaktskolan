@@ -3,3 +3,4 @@ dist/**/*
 npm-debug.log
 gulp.conf.json
 /vendor/
+.DS_Store
