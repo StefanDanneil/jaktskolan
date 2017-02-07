@@ -7,11 +7,12 @@
 
 
   // our javascript
+  require('./js/quizApp.js');
+  require('./js/quiz/index.js');
+
   require('./js/appDirectives.js');
   require('./js/appServices.js');
-  require('./js/bootstrap.js');
   require('./js/extendArrayPrototype.js');
-  require('./js/quizApp.js');
 
   //vendor styles
   require('../node_modules/bootstrap/dist/css/bootstrap.css');

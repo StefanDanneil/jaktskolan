@@ -11,3 +11,4 @@ require('../src/js/appDirectives.js');
 require('../src/js/appServices.js');
 require('../src/js/extendArrayPrototype.js');
 require('../src/js/quizApp.js');
+require('../src/js/quiz/index.js');

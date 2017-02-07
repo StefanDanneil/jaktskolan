@@ -48,7 +48,7 @@
     {
         "text": "Vad för jakthund visas på bilden?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/animal5.jpg",
+        "imageUrl": "src/images/animal5.jpg",
         "answers": [
             {
                 "text": "Pointer",
@@ -71,7 +71,7 @@
     {
         "text": "Vad heter fångstredskapet på bilden?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/object1.jpg",
+        "imageUrl": "src/images/object1.jpg",
         "answers": [
             {
                 "text": "Ripsnara",
@@ -232,7 +232,7 @@
     {
         "text": "Vilket djur visas?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/animal6.jpg",
+        "imageUrl": "src/images/animal6.jpg",
         "answers": [
             {
                 "text": "Grävling",
@@ -255,7 +255,7 @@
     {
         "text": "Vilken fågel visas?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/bird6.jpg",
+        "imageUrl": "src/images/bird6.jpg",
         "answers": [
             {
                 "text": "Fjällgås",
@@ -324,7 +324,7 @@
     {
         "text": "Vilken fågel visas?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/bird7.jpg",
+        "imageUrl": "src/images/bird7.jpg",
         "answers": [
             {
                 "text": "Enkelbeckasin",
@@ -370,7 +370,7 @@
     {
         "text": "Vilken fågel visas?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/bird8.jpg",
+        "imageUrl": "src/images/bird8.jpg",
         "answers": [
             {
                 "text": "Nötskrika",
@@ -738,7 +738,7 @@
     {
         "text": "Vad är detta för gås?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/bird2.png",
+        "imageUrl": "src/images/bird2.png",
         "answers": [
             {
                 "text": "Grågås",
@@ -853,7 +853,7 @@
     {
         "text": "Vilken vapendel pekar pilen på?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/weaponPart1.jpg",
+        "imageUrl": "src/images/weaponPart1.jpg",
         "answers": [
             {
                 "text": "Säkringsbygel",
@@ -968,7 +968,7 @@
     {
         "text": "Vilket djur visas på bilden?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/animal4.jpg",
+        "imageUrl": "src/images/animal4.jpg",
         "answers": [
             {
                 "text": "Råbock som fällt hornen",
@@ -991,7 +991,7 @@
     {
         "text": "Vilken fågel visas?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/bird3.jpg",
+        "imageUrl": "src/images/bird3.jpg",
         "answers": [
             {
                 "text": "Kricka",
@@ -1129,7 +1129,7 @@
     {
         "text": "Vad syns på bilden?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/animal1.jpg",
+        "imageUrl": "src/images/animal1.jpg",
         "answers": [
             {
                 "text": "En skovelbock",
@@ -1198,7 +1198,7 @@
     {
         "text": "Vilken fågel visas?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/bird5.jpg",
+        "imageUrl": "src/images/bird5.jpg",
         "answers": [
             {
                 "text": "Ripa",
@@ -1497,7 +1497,7 @@
     {
         "text": "Vad är det för säl på bilden?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/animal2.jpg",
+        "imageUrl": "src/images/animal2.jpg",
         "answers": [
             {
                 "text": "Vikaresäl",
@@ -1566,7 +1566,7 @@
     {
         "text": "Vilken fågel visas?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/bird4.jpg",
+        "imageUrl": "src/images/bird4.jpg",
         "answers": [
             {
                 "text": "Skogsduva",
@@ -1957,7 +1957,7 @@
     {
         "text": "Vad är det för fågel på bilden?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/bird1.png",
+        "imageUrl": "src/images/bird1.png",
         "answers": [
             {
                 "text": "Vigg",
@@ -2026,7 +2026,7 @@
     {
         "text": "Vilket djur visas?",
         "isImageQuestion": true,
-        "imageUrl": "Content/images/animal3.jpg",
+        "imageUrl": "src/images/animal3.jpg",
         "answers": [
             {
                 "text": "Hermelin",
