@@ -1,11 +1,3 @@
-require('angular');
-require("angular-resource");
-require('angular-mocks');
-require('../src/js/appDirectives.js');
-require('../src/js/appServices.js');
-require('../src/js/extendArrayPrototype.js');
-require('../src/js/quizApp.js');
-
 beforeEach(function () {
   angular.mock.module('quiz', function($provide) {
 
