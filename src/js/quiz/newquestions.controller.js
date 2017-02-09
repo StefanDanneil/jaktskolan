@@ -11,8 +11,12 @@
     '$http'
   ];
 
-  function NewQuestionsController($scope, fileUpload, $http) {
-    var self = this;
+  function NewQuestionsController(
+    $scope,
+    fileUpload,
+    $http) {
+
+    var vm = this;
     $scope.isPreviewEnabled = false;
 
     $scope.newQuestion = {
@@ -47,7 +51,7 @@
       $scope.isPreviewEnabled = false;
 
       try {
-        self.validateNewQuestion();
+        vm.validateNewQuestion();
 
         $scope.postForm();
 
@@ -74,11 +78,11 @@
           }
           ]
         };
-        self.giveUserAlert('success', 'Tack för ditt bidrag!');
+        vm.giveUserAlert('success', 'Tack för ditt bidrag!');
       }
       catch(error){
         var errorMessage = '<strong>Varning!</strong> '+ error
-        self.giveUserAlert('danger', errorMessage);
+        vm.giveUserAlert('danger', errorMessage);
       }
     };
 

@@ -10,7 +10,10 @@
     'JsonService'
   ];
 
-  function QuestionController($scope, JsonService) {
+  function QuestionController(
+    $scope,
+    JsonService) {
+
     $scope.questions = [];
     $scope.failedQuestions = [];
     $scope.currentQuestionIndex = 0;
@@ -23,25 +26,28 @@
     $scope.isLandingPageActive = true;
     $scope.isClickEnabled = true;
 
-    JsonService.getData(function(data){
-      for(var i = 0; i < data.length; i++){
-        var question = data[i];
+    activate();
 
-        question.rightAnswer = function(){
-          for(var i = 0; i < this.answers.length; i++){
-            if(this.answers[i].isRightAnswer){
-              return this.answers[i];
+    function activate() {
+      JsonService.getData(function(data){
+        for(var i = 0; i < data.length; i++){
+          var question = data[i];
+
+          question.rightAnswer = function(){
+            for(var i = 0; i < this.answers.length; i++){
+              if(this.answers[i].isRightAnswer){
+                return this.answers[i];
+              }
             }
-          }
-        };
+          };
 
-        question.answers.shuffle();
-
-        $scope.questions.push(data[i]);
-      }
-      $scope.questions.shuffle();
-      $scope.setCurrentQuestion();
-    });
+          question.answers.shuffle();
+          $scope.questions.push(data[i]);
+        }
+        $scope.questions.shuffle();
+        $scope.setCurrentQuestion();
+      });
+    }
 
     $scope.submitAnswer = function(answer, event){
       if($scope.lightningQuestionsEnabled) {
