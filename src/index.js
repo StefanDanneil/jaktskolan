@@ -7,11 +7,13 @@
 
 
   // our javascript
-  require('./js/quizApp.js');
-  require('./js/quiz/index.js');
+  require('./js/app/app.js');
+  require('./js/app/questions/index.js');
 
-  require('./js/appDirectives.js');
-  require('./js/appServices.js');
+  require('./js/app/common/directives/landing-page/landing-page.js');
+  require('./js/app/common/directives/submit-question/submit-question.js');
+  require('./js/app/common/directives/quiz/quiz.js');
+  require('./js/app/appServices.js');
   require('./js/extendArrayPrototype.js');
 
   //vendor styles

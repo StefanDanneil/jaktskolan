@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('quiz')
+    .module('fc.quiz')
     .controller('NewQuestionController', NewQuestionsController);
 
   NewQuestionsController.$inject = [

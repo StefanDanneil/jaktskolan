@@ -2,9 +2,8 @@
 	'use strict';
 
 	var app = angular
-	.module("quiz", [
-		'appServices',
-		'appDirectives'
+	.module("fc.quiz", [
+		'appServices'
 		]);
 
 })();
