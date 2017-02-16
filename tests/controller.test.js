@@ -1,5 +1,5 @@
 beforeEach(function () {
-  angular.mock.module('quiz', function($provide) {
+  angular.mock.module('fc.quiz', function($provide) {
 
   });
 });
