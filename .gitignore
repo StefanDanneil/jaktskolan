@@ -6,3 +6,4 @@ gulp.conf.json
 .DS_Store
 /composer.lock
 !/composer.lock
+config.ini
