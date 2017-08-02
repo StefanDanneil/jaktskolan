@@ -12,7 +12,6 @@ class test
   }
 }
 
-
 /**
  * @covers Email
  */

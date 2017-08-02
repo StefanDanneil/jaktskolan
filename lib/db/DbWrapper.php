@@ -1,20 +1,28 @@
 <?php
 
-class Db {
+
+namespace Db;
+
+class DbWrapper {
     // The database connection
     protected static $connection;
 
     /**
      * Connect to the database
      *
+     * @throws exception
      * @return bool false on failure / mysqli MySQLi object instance on success
      */
-    public function connect() {
+    public function connect()
+    {
         // Try and connect to the database
         if(!isset(self::$connection)) {
             // Load configuration as an array. Use the actual location of your configuration file
             $config = parse_ini_file(__DIR__ . '/../../config.ini');
-            self::$connection = new mysqli($config['host'],$config['username'],$config['password'],$config['dbname']);
+
+            throw new Exception('hehehe');
+
+            self::$connection = new \mysqli($config['host'],$config['username'],$config['password'],$config['dbname']);
         }
 
         // If connection was not successful, handle the error
@@ -31,7 +39,8 @@ class Db {
      * @param $query The query string
      * @return mixed The result of the mysqli::query() function
      */
-    public function query($query) {
+    public function query($query)
+    {
         // Connect to the database
         $connection = $this -> connect();
 
@@ -47,7 +56,8 @@ class Db {
      * @param $query The query string
      * @return bool False on failure / array Database rows on success
      */
-    public function select($query) {
+    public function select($query)
+    {
         $rows = array();
 
         $result = $this -> query($query);
@@ -65,7 +75,8 @@ class Db {
      *
      * @return string Database error message
      */
-    public function error() {
+    public function error()
+    {
         $connection = $this -> connect();
         return $connection -> error;
     }
@@ -76,7 +87,8 @@ class Db {
      * @param string $value The value to be quoted and escaped
      * @return string The quoted and escaped string
      */
-    public function quote($value) {
+    public function quote($value)
+    {
         $connection = $this -> connect();
         return "'" . $connection -> real_escape_string($value) . "'";
     }
