@@ -13,7 +13,7 @@ if [ -f config.ini ]; then
     echo "This will override the existing config file. Continue? (y/n)"
     read override
 
-    if [[ "$override" == "n" ]] ; then
+    if [[ "$override" != "y" ]] ; then
         exit 1
     fi
 fi
