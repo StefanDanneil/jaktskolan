@@ -9,7 +9,7 @@ read name
 echo "db hostname"
 read host
 
-if [ -f test1.ini ]; then
+if [ -f config.ini ]; then
     echo "This will override the existing config file. Continue? (y/n)"
     read override
 
