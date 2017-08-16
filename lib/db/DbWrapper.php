@@ -20,7 +20,6 @@ class DbWrapper {
             // Load configuration as an array. Use the actual location of your configuration file
             $config = parse_ini_file(__DIR__ . '/../../config.ini');
 
-            throw new Exception('hehehe');
 
             self::$connection = new \mysqli($config['host'],$config['username'],$config['password'],$config['dbname']);
         }

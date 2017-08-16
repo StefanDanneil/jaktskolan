@@ -1,4 +1,5 @@
 (function(){
+
   //vendor javascript
   require("angular");
   require("angular-resource");
@@ -23,4 +24,5 @@
 
   //custom styles
   require('./sass/style.scss');
+
 })();
